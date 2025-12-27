@@ -63,18 +63,45 @@ export const products: Product[] = [
     category: 'cosmetics',
     description: '12 stunning shades inspired by golden sunsets. Mix of matte, shimmer, and glitter finishes.',
   },
-  // {
-  //   id: 'cos-6',
-  //   name: 'Lip Gloss Set',
-  //   price: 28.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1599948128020-9a44505b0d1b?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1631214540553-ff044a3ff1ea?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'cosmetics',
-  //   description: 'Set of 4 hydrating lip glosses in nude to berry shades. Non-sticky formula with vitamin E.',
-  // },
+  {
+    id: 'cos-6',
+    name: 'DR.ALTHEA 345 RELIEF CREAM',
+    price: 28.99,
+    images: [
+      '/photos/DRALTHEA345RELIEFCREAM.png',
+      '/photos/DRALTHEA345RELIEFCREAM-1.png',
+      
+    ],
+    category: 'cosmetics',
+    description: 'Set of 4 hydrating lip glosses in nude to berry shades. Non-sticky formula with vitamin E.',
+  }, {
+    id: 'cos-7',
+    name: 'MEDICUBE P.D.R.N PINK PEPTIDE SERUM',
+    price: 19.99,
+    images: [
+      '/photos/MedicubePDRNPINKPEPTIDESERUM.png',
+      '/photos/MedicubePDRNPINKPEPTIDESERUM-1.png',
+      '/photos/MedicubePDRNPINKPEPTIDESERUM-2.png',
+      '/photos/MedicubePDRNPINKPEPTIDESERUM-3.png',
+      
+    ],
+    category: 'cosmetics',
+    description: 'Set of 4 hydrating lip glosses in nude to berry shades. Non-sticky formula with vitamin E.',
+  },
+  {
+    id: 'cos-8',
+    name: 'Medicube collagen night wrapping mask',
+    price: 20.99,
+    images: [
+      '/photos/Medicubecollagennightwrappingmask.png',
+      '/photos/Medicubecollagennightwrappingmask-1.png',
+      '/photos/Medicubecollagennightwrappingmask-2.png',
+      '/photos/Medicubecollagennightwrappingmask-3.png',
+      
+    ],
+    category: 'cosmetics',
+    description: 'Set of 4 hydrating lip glosses in nude to berry shades. Non-sticky formula with vitamin E.',
+  },
 
   // Hair Care
   {
