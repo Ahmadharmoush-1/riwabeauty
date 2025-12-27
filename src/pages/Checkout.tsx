@@ -197,7 +197,7 @@ Thank you! 💕`;
                 {items.map((item) => (
                   <div key={item.id} className="flex gap-3">
                     <img
-                      src={item.image}
+                      src={item.images[0]}
                       alt={item.name}
                       className="w-16 h-16 object-cover rounded-lg"
                     />

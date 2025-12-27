@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ShoppingBag, Search } from 'lucide-react';
+import { Menu, X, ShoppingBag } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useCart } from '@/context/CartContext';
 import { cn } from '@/lib/utils';
@@ -25,8 +25,9 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <span className="text-2xl font-heading font-bold text-foreground tracking-tight">
-              RIWA <span className="text-primary">Beauty</span>
+            <span className="text-2xl font-heading font-bold tracking-tight">
+              <span className="text-[#FF77A9]">Riwa </span>
+              <span className="text-[#FF77A9]">Beauty</span>
             </span>
           </Link>
 
