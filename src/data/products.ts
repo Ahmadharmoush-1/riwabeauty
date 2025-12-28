@@ -5,10 +5,12 @@ export const products: Product[] = [
   {
     id: 'cos-1',
     name: 'NAD+ PEPTIDE BOOSTING SERUM',
-    price: 19.99,
+    price: 22.99,
     images: [
       '/photos/NADPEPTIDEBOOSTINGSERUM.png',
       '/photos/NADPEPTIDEBOOSTINGSERUM-1.png',
+      '/photos/NADPEPTIDEBOOSTINGSERUM-2.png',
+      '/photos/NADPEPTIDEBOOSTINGSERUM-3.png',
       
     ],
     category: 'cosmetics',
@@ -17,10 +19,11 @@ export const products: Product[] = [
   {
     id: 'cos-2',
     name: 'HYALTOIN FLOODING SERIUM',
-    price: 19.99,
+    price: 24.99,
     images: [
       '/photos/EQQUALBERRY.png',
       '/photos/EQQUALBERRY-1.png',
+      '/photos/HyaltoinFloodingSerum-2.png',
       
     ],
     category: 'cosmetics',
@@ -29,10 +32,11 @@ export const products: Product[] = [
   {
     id: 'cos-3',
     name: 'ALOE PDRN CALMING SERUM',
-    price: 19.99,
+    price: 24.99,
     images: [
-      '/photos/HYALTOINFLOODINGSERUM.png',
-      '/photos/HYALTOINFLOODINGSERUM-1.png',
+      '/photos/AloePDRNCalmingSerum.png',
+      '/photos/AloePDRNCalmingSerum-1.png',
+      '/photos/AloePDRNCalmingSerum-2.png',
       
     ],
     category: 'cosmetics',
@@ -41,10 +45,11 @@ export const products: Product[] = [
   {
     id: 'cos-4',
     name: 'BAKUCHIOL PLUMPING SERUM',
-    price: 19.99,
+    price: 22.99,
     images: [
       '/photos/BAKUCHIOLPLUMPINGSERUM.png',
       '/photos/BAKUCHIOLPLUMPINGSERUM-1.png',
+      '/photos/BAKUCHIOLPLUMPINGSERUM-2.png',
       
     ],
     category: 'cosmetics',
@@ -53,12 +58,14 @@ export const products: Product[] = [
   {
     id: 'cos-5',
     name: 'VITAMIN ILLUMINATING SERUM',
-    price: 19.99,
+    price: 22.99,
     images: [
       '/photos/VITAMINILLUMINATINGSERUM.png',
       '/photos/VITAMINILLUMINATINGSERUM-1.png',
       '/photos/VITAMINILLUMINATINGSERUM-2.png',
+
       '/photos/VITAMINILLUMINATINGSERUM-3.png',
+      '/photos/VITAMINILLUMINATINGSERUM-4.png',
     ],
     category: 'cosmetics',
     description: '12 stunning shades inspired by golden sunsets. Mix of matte, shimmer, and glitter finishes.',
@@ -66,10 +73,28 @@ export const products: Product[] = [
   {
     id: 'cos-6',
     name: 'DR.ALTHEA 345 RELIEF CREAM',
-    price: 28.99,
+    price: 20.99,
     images: [
       '/photos/DRALTHEA345RELIEFCREAM.png',
-      '/photos/DRALTHEA345RELIEFCREAM-1.png',
+      // '/photos/DRALTHEA345RELIEFCREAM-1.png',
+      '/photos/DRALTHEA345RELIEFCREAM-2.png',
+      '/photos/DRALTHEA345RELIEFCREAM-3.png',
+      '/photos/DRALTHEA345RELIEFCREAM-4.png',
+      
+    ],
+    category: 'cosmetics',
+    description: 'Set of 4 hydrating lip glosses in nude to berry shades. Non-sticky formula with vitamin E.',
+  },
+   {
+    id: 'cos-16',
+    name: 'Dr.Althea 147 Barrier Cream 50ml',
+    price: 20.99,
+    images: [
+      '/photos/147BarrierCream.png',
+      '/photos/147BarrierCream-1.png',
+      '/photos/147BarrierCream-2.png',
+      '/photos/147BarrierCream-3.png',
+      
       
     ],
     category: 'cosmetics',
@@ -101,8 +126,114 @@ export const products: Product[] = [
     ],
     category: 'cosmetics',
     description: 'Set of 4 hydrating lip glosses in nude to berry shades. Non-sticky formula with vitamin E.',
+  },{
+    id: 'cos-9',
+    name: 'Centella Brightening Capsule Ampoule 100ml',
+    price: 19.99,
+    images: [
+      '/photos/CentellaBrighteningCapsuleAmpoule.png',
+      '/photos/CentellaBrighteningCapsuleAmpoule-1.png',
+      '/photos/CentellaBrighteningCapsuleAmpoule-2.png',
+     
+      
+    ],
+    category: 'cosmetics',
+    description: ' Intensive Soothing & Brightening Skincare Solution with Madagascar Centella Asiatica Extracts',
   },
+{
+    id: 'cos-10',
+    name: 'Anua - Niacinamide 10% + Txa 4% Serum',
+    price: 19.99,
+    images: [
+      '/photos/Anua.png',
+      '/photos/Anua-1.png',
+      '/photos/Anua-2.png',
+      '/photos/Anua-3.png',
 
+      '/photos/Anua-4.png',
+    ],
+    category: 'cosmetics',
+    description: ' Intensive Soothing & Brightening Skincare Solution with Madagascar Centella Asiatica Extracts',
+  },{
+    id: 'cos-11',
+    name: 'CELIMAX THE VITA A RETINAL SHOT TIGHTENING BOOSTER',
+    price: 20.99,
+    images: [
+      '/photos/CELIMAXTHEVITA.png',
+      '/photos/CELIMAXTHEVITA-1.png',
+      '/photos/CELIMAXTHEVITA-2.png',
+      
+
+   
+    ],
+    category: 'cosmetics',
+    description: ' Intensive Soothing & Brightening Skincare Solution with Madagascar Centella Asiatica Extracts',
+  },
+  {
+    id: 'cos-12',
+    name: 'NUMBUZIN No. 9 NAD RetinA Volume Shot Eye Cream 10ml',
+    price: 20.99,
+    images: [
+      '/photos/numbuzin.png',
+      '/photos/numbuzin-1.png',
+      '/photos/numbuzin-2.png',
+      '/photos/numbuzin-3.png',
+      '/photos/numbuzin-4.png',
+      
+
+   
+    ],
+    category: 'cosmetics',
+    description: ' Intensive Soothing & Brightening Skincare Solution with Madagascar Centella Asiatica Extracts',
+  }, {
+    id: 'cos-13',
+    name: 'SOME BY MI Retinol Intense Advanced Triple Action Eye Cream',
+    price: 20.99,
+    images: [
+      '/photos/SOMEBYM.png',
+      '/photos/SOMEBYM-1.png',
+      '/photos/SOMEBYM-2.png',
+     
+      
+
+   
+    ],
+    category: 'cosmetics',
+    description: ' Intensive Soothing & Brightening Skincare Solution with Madagascar Centella Asiatica Extracts',
+  },
+   {
+    id: 'cos-14',
+    name: 'CELIMAX THE VITA A RETINOL SHOT TIGHTENING SERUM 30ML',
+    price: 19.99,
+    images: [
+      '/photos/CELIMAXTHEVITAARETINOL.png',
+      '/photos/CELIMAXTHEVITAARETINOL-1.png',
+      '/photos/CELIMAXTHEVITAARETINOL-2.png',
+      '/photos/CELIMAXTHEVITAARETINOL-3.png',
+      
+      
+
+   
+    ],
+    category: 'cosmetics',
+    description: ' Intensive Soothing & Brightening Skincare Solution with Madagascar Centella Asiatica Extracts',
+  },
+   {
+    id: 'cos-15',
+    name: 'Lait-Crème Concentré - #1 Bestseller Moisturizer',
+    price: 22.99,
+    images: [
+      '/photos/Lait-CrèmeConcentré.png',
+      '/photos/Lait-CrèmeConcentré-1.png',
+      '/photos/Lait-CrèmeConcentré-2.png',
+     
+      
+
+   
+    ],
+    category: 'cosmetics',
+    description: ' Intensive Soothing & Brightening Skincare Solution with Madagascar Centella Asiatica Extracts',
+  },
   // Hair Care
   {
     id: 'hair-1',
