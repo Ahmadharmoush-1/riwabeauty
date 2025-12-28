@@ -13,6 +13,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -22,20 +23,21 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/shop" element={<Shop />} />
-            <Route path="/shop/:category" element={<Shop />} />
-            <Route path="/product/:id" element={<ProductDetail />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="/checkout" element={<Checkout />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/privacy" element={<Privacy />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </BrowserRouter>
+       <BrowserRouter>
+  <ScrollToTop />  {/* <-- add this here */}
+  <Routes>
+    <Route path="/" element={<Index />} />
+    <Route path="/shop" element={<Shop />} />
+    <Route path="/shop/:category" element={<Shop />} />
+    <Route path="/product/:id" element={<ProductDetail />} />
+    <Route path="/cart" element={<Cart />} />
+    <Route path="/checkout" element={<Checkout />} />
+    <Route path="/about" element={<About />} />
+    <Route path="/contact" element={<Contact />} />
+    <Route path="/privacy" element={<Privacy />} />
+    <Route path="*" element={<NotFound />} />
+  </Routes>
+</BrowserRouter>
       </TooltipProvider>
     </CartProvider>
   </QueryClientProvider>

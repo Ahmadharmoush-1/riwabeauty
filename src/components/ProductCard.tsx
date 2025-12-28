@@ -22,15 +22,10 @@ const ProductCard = ({ product }: ProductCardProps) => {
     setTimeout(() => setIsAdding(false), 500);
   };
 
-  const handleClick = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
     <Link
       to={`/product/${product.id}`}
       className="card-product group block"
-      onClick={handleClick}
     >
       <div className="aspect-square overflow-hidden bg-accent/50 relative">
         <img

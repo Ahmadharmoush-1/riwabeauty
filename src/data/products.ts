@@ -449,8 +449,5 @@ export const categories = [
 ];
 
 export const getProductById = (id: string) => products.find(p => p.id === id);
-
-export const getProductsByCategory = (category: string) =>
-  products.filter(p => p.category === category);
-
+export const getProductsByCategory = (category: string) => products.filter(p => p.category === category);
 export const getFeaturedProducts = () => products.slice(0, 6);

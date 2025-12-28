@@ -5,9 +5,16 @@ import Layout from '@/components/layout/Layout';
 import ProductCard from '@/components/ProductCard';
 import CategoryCard from '@/components/CategoryCard';
 import { categories, getFeaturedProducts } from '@/data/products';
+import { useEffect } from 'react';
 
 const Index = () => {
   const featuredProducts = getFeaturedProducts();
+  // Scroll to top on mobile when navigating to a category or new route
+  useEffect(() => {
+    if (window.innerWidth < 768) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }, [location]);
 
   return (
     <Layout>

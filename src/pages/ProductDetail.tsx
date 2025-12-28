@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { Minus, Plus, ShoppingBag, ArrowLeft, Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -16,6 +16,10 @@ const ProductDetail = () => {
   const { addToCart, items } = useCart();
   const [quantity, setQuantity] = useState(1);
   const [selectedImage, setSelectedImage] = useState(0);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [id]);
 
   if (!product) {
     return (
@@ -45,10 +49,7 @@ const ProductDetail = () => {
     for (let i = 0; i < quantity; i++) {
       addToCart(product);
     }
-    toast({
-      title: "Added to cart!",
-      description: `${quantity} x ${product.name}`,
-    });
+    toast({ title: "Added to cart!", description: `${quantity} x ${product.name}` });
   };
 
   const handleBuyNow = () => {
@@ -67,9 +68,7 @@ const ProductDetail = () => {
           {category && (
             <>
               <span className="mx-2">/</span>
-              <Link to={`/shop/${category.id}`} className="hover:text-primary transition-colors">
-                {category.name}
-              </Link>
+              <Link to={`/shop/${category.id}`} className="hover:text-primary transition-colors">{category.name}</Link>
             </>
           )}
           <span className="mx-2">/</span>
@@ -80,7 +79,6 @@ const ProductDetail = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-16">
           {/* Images */}
           <div className="space-y-4 animate-fade-in">
-            {/* Main Image */}
             <div className="aspect-square rounded-3xl overflow-hidden bg-accent/50 shadow-card">
               <img
                 src={product.images[selectedImage]}
@@ -88,7 +86,6 @@ const ProductDetail = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            {/* Thumbnails */}
             {product.images.length > 1 && (
               <div className="flex gap-3">
                 {product.images.map((image, index) => (
@@ -97,16 +94,10 @@ const ProductDetail = () => {
                     onClick={() => setSelectedImage(index)}
                     className={cn(
                       "w-20 h-20 rounded-xl overflow-hidden border-2 transition-all",
-                      selectedImage === index
-                        ? "border-primary shadow-soft"
-                        : "border-transparent opacity-70 hover:opacity-100"
+                      selectedImage === index ? "border-primary shadow-soft" : "border-transparent opacity-70 hover:opacity-100"
                     )}
                   >
-                    <img
-                      src={image}
-                      alt={`${product.name} - Image ${index + 1}`}
-                      className="w-full h-full object-cover"
-                    />
+                    <img src={image} alt={`${product.name} - ${index}`} className="w-full h-full object-cover"/>
                   </button>
                 ))}
               </div>
@@ -119,36 +110,19 @@ const ProductDetail = () => {
               <span className="inline-block bg-accent text-muted-foreground text-xs font-medium px-3 py-1 rounded-full mb-4">
                 {category?.name}
               </span>
-              
-              <h1 className="font-heading text-3xl md:text-4xl font-bold mb-4">
-                {product.name}
-              </h1>
-              
-              <p className="text-3xl font-bold text-primary mb-6">
-                ${product.price.toFixed(2)}
-              </p>
-              
-              <p className="text-muted-foreground leading-relaxed mb-8">
-                {product.description}
-              </p>
+              <h1 className="font-heading text-3xl md:text-4xl font-bold mb-4">{product.name}</h1>
+              <p className="text-3xl font-bold text-primary mb-6">${product.price.toFixed(2)}</p>
+              <p className="text-muted-foreground leading-relaxed mb-8">{product.description}</p>
 
               {/* Quantity Selector */}
               <div className="mb-6">
                 <label className="block text-sm font-medium mb-2">Quantity</label>
                 <div className="flex items-center gap-3">
-                  <Button
-                    variant="outline"
-                    size="icon"
-                    onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                  >
+                  <Button variant="outline" size="icon" onClick={() => setQuantity(Math.max(1, quantity - 1))}>
                     <Minus className="h-4 w-4" />
                   </Button>
                   <span className="w-12 text-center font-semibold text-lg">{quantity}</span>
-                  <Button
-                    variant="outline"
-                    size="icon"
-                    onClick={() => setQuantity(quantity + 1)}
-                  >
+                  <Button variant="outline" size="icon" onClick={() => setQuantity(quantity + 1)}>
                     <Plus className="h-4 w-4" />
                   </Button>
                 </div>
@@ -158,52 +132,30 @@ const ProductDetail = () => {
             {/* Actions */}
             <div className="flex flex-col gap-3 pt-6 border-t border-border">
               <Button onClick={handleAddToCart} variant="secondary" size="lg" className="w-full">
-                {isInCart ? (
-                  <>
-                    <Check className="h-5 w-5 mr-2" />
-                    Add More to Cart
-                  </>
-                ) : (
-                  <>
-                    <ShoppingBag className="h-5 w-5 mr-2" />
-                    Add to Cart
-                  </>
-                )}
+                {isInCart ? <><Check className="h-5 w-5 mr-2" />Add More to Cart</> : <><ShoppingBag className="h-5 w-5 mr-2" />Add to Cart</>}
               </Button>
-              <Button onClick={handleBuyNow} variant="outline" size="lg" className="w-full">
-                Buy Now
-              </Button>
+              <Button onClick={handleBuyNow} variant="outline" size="lg" className="w-full">Buy Now</Button>
             </div>
           </div>
         </div>
 
         {/* Related Products */}
-       {relatedProducts.length > 0 && (
-  <section>
-    {/* Big Image */}
-    <div className="w-full mb-8">
-      <img 
-        src="/photos/serrum-1.png"     // change to your image path
-        alt="Featured Product"
-        className="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg"
-      />
-    </div>
+        {relatedProducts.length > 0 && (
+          <section>
+            <div className="w-full mb-8">
+              <img src="/photos/serrum-1.png" alt="Featured Product" className="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg" />
+            </div>
 
-    <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">You May Also Like</h2>
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-      {relatedProducts.map((product, index) => (
-        <div
-          key={product.id}
-          className="animate-fade-in-up"
-          style={{ animationDelay: `${index * 0.1}s` }}
-        >
-          <ProductCard product={product} />
-        </div>
-      ))}
-    </div>
-  </section>
-)}
-
+            <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">You May Also Like</h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+              {relatedProducts.map((product, index) => (
+                <div key={product.id} className="animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
+                  <ProductCard product={product} />
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
       </div>
     </Layout>
   );
