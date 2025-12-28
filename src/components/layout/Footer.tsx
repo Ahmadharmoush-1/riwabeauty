@@ -20,7 +20,7 @@ const Footer = () => {
 
             <div className="flex gap-3">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/riwabeautyy/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-10 w-10 rounded-full bg-white/25 flex items-center justify-center hover:bg-white/40 transition-colors"
@@ -29,7 +29,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://wa.me/961"
+                href="https://wa.me/9613349881"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-10 w-10 rounded-full bg-white/25 flex items-center justify-center hover:bg-white/40 transition-colors"
@@ -84,7 +84,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-white" />
-                <span>+961 XX XXX XXX</span>
+                <span>+961 03 349 881</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-white" />
