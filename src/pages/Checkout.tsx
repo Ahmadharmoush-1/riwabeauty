@@ -8,7 +8,7 @@ import Layout from '@/components/layout/Layout';
 import { useCart } from '@/context/CartContext';
 import { toast } from '@/hooks/use-toast';
 
-const WHATSAPP_NUMBER = '961'; // Lebanese country code - user should add their number
+const WHATSAPP_NUMBER = '9613349881'; // Lebanese country code - user should add their number
 
 const Checkout = () => {
   const navigate = useNavigate();

@@ -5,7 +5,7 @@ export const products: Product[] = [
   {
     id: 'cos-1',
     name: 'NAD+ PEPTIDE BOOSTING SERUM',
-    price: 22.99,
+    price: 23,
     images: [
       '/photos/NADPEPTIDEBOOSTINGSERUM.png',
       '/photos/NADPEPTIDEBOOSTINGSERUM-1.png',
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: 'cos-2',
     name: 'HYALTOIN FLOODING SERIUM',
-    price: 24.99,
+    price: 25,
     images: [
       '/photos/EQQUALBERRY.png',
       '/photos/EQQUALBERRY-1.png',
@@ -32,7 +32,7 @@ export const products: Product[] = [
   {
     id: 'cos-3',
     name: 'ALOE PDRN CALMING SERUM',
-    price: 24.99,
+    price: 25,
     images: [
       '/photos/AloePDRNCalmingSerum.png',
       '/photos/AloePDRNCalmingSerum-1.png',
@@ -45,7 +45,7 @@ export const products: Product[] = [
   {
     id: 'cos-4',
     name: 'BAKUCHIOL PLUMPING SERUM',
-    price: 22.99,
+    price: 23,
     images: [
       '/photos/BAKUCHIOLPLUMPINGSERUM.png',
       '/photos/BAKUCHIOLPLUMPINGSERUM-1.png',
@@ -58,7 +58,7 @@ export const products: Product[] = [
   {
     id: 'cos-5',
     name: 'VITAMIN ILLUMINATING SERUM',
-    price: 22.99,
+    price: 23,
     images: [
       '/photos/VITAMINILLUMINATINGSERUM.png',
       '/photos/VITAMINILLUMINATINGSERUM-1.png',
@@ -73,7 +73,7 @@ export const products: Product[] = [
   {
     id: 'cos-6',
     name: 'DR.ALTHEA 345 RELIEF CREAM',
-    price: 20.99,
+    price: 21,
     images: [
       '/photos/DRALTHEA345RELIEFCREAM.png',
       '/photos/DRALTHEA345RELIEFCREAM-2.png',
@@ -87,7 +87,7 @@ export const products: Product[] = [
   {
     id: 'cos-16',
     name: 'Dr.Althea 147 Barrier Cream 50ml',
-    price: 20.99,
+    price: 21,
     images: [
       '/photos/147BarrierCream.png',
       '/photos/147BarrierCream-1.png',
@@ -101,7 +101,7 @@ export const products: Product[] = [
   {
     id: 'cos-7',
     name: 'MEDICUBE P.D.R.N PINK PEPTIDE SERUM',
-    price: 19.99,
+    price: 20,
     images: [
       '/photos/MedicubePDRNPINKPEPTIDESERUM.png',
       '/photos/MedicubePDRNPINKPEPTIDESERUM-1.png',
@@ -115,7 +115,7 @@ export const products: Product[] = [
   {
     id: 'cos-8',
     name: 'Medicube Collagen Night Wrapping Mask',
-    price: 20.99,
+    price: 21,
     images: [
       '/photos/Medicubecollagennightwrappingmask.png',
       '/photos/Medicubecollagennightwrappingmask-1.png',
@@ -129,7 +129,7 @@ export const products: Product[] = [
   {
     id: 'cos-9',
     name: 'Centella Brightening Capsule Ampoule 100ml',
-    price: 19.99,
+    price: 20,
     images: [
       '/photos/CentellaBrighteningCapsuleAmpoule.png',
       '/photos/CentellaBrighteningCapsuleAmpoule-1.png',
@@ -142,7 +142,7 @@ export const products: Product[] = [
   {
     id: 'cos-10',
     name: 'Anua - Niacinamide 10% + TXA 4% Serum',
-    price: 19.99,
+    price: 20,
     images: [
       '/photos/Anua.png',
       '/photos/Anua-1.png',
@@ -157,7 +157,7 @@ export const products: Product[] = [
   {
     id: 'cos-11',
     name: 'CELIMAX THE VITA A RETINAL SHOT TIGHTENING BOOSTER',
-    price: 20.99,
+    price: 21,
     images: [
       '/photos/CELIMAXTHEVITA.png',
       '/photos/CELIMAXTHEVITA-1.png',
@@ -170,7 +170,7 @@ export const products: Product[] = [
   {
     id: 'cos-12',
     name: 'NUMBUZIN No. 9 NAD RetinA Volume Shot Eye Cream 10ml',
-    price: 20.99,
+    price: 21,
     images: [
       '/photos/numbuzin.png',
       '/photos/numbuzin-1.png',
@@ -185,7 +185,7 @@ export const products: Product[] = [
   {
     id: 'cos-13',
     name: 'SOME BY MI Retinol Intense Advanced Triple Action Eye Cream',
-    price: 20.99,
+    price: 21,
     images: [
       '/photos/SOMEBYM.png',
       '/photos/SOMEBYM-1.png',
@@ -198,7 +198,7 @@ export const products: Product[] = [
   {
     id: 'cos-14',
     name: 'CELIMAX THE VITA A RETINOL SHOT TIGHTENING SERUM 30ML',
-    price: 19.99,
+    price: 20,
     images: [
       '/photos/CELIMAXTHEVITAARETINOL.png',
       '/photos/CELIMAXTHEVITAARETINOL-1.png',
@@ -212,7 +212,7 @@ export const products: Product[] = [
   {
     id: 'cos-15',
     name: 'Lait-Crème Concentré - #1 Bestseller Moisturizer',
-    price: 22.99,
+    price: 23,
     images: [
       '/photos/Lait-CrèmeConcentré.png',
       '/photos/Lait-CrèmeConcentré-1.png',
