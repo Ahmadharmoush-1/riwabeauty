@@ -94,6 +94,13 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <div className="w-full my-10 flex justify-center">
+  <img
+    src="/photos/serums-3.png"
+    alt="Promo Banner"
+    className="w-full max-h-[600px] md:max-h-[450px] lg:max-h-[400px] object-contain rounded-2xl shadow-2xl"
+  />
+</div>
 
       {/* Categories */}
       <section className="py-12 md:py-20 bg-background">
@@ -118,13 +125,15 @@ const Index = () => {
 </section>
 
 {/* ===== BIG IMAGE SECTION HERE ===== */}
-<div className="w-full my-10">
+<div className="w-full my-10 flex justify-center">
   <img
-    src="/photos/serrum-1.png"   // <-- change to your image path
+    src="/photos/serrum-1.png"
     alt="Promo Banner"
-    className="w-full h-[650px] md:h-[900px] object-cover rounded-2xl shadow-2xl"
+    className="w-full max-h-[600px] md:max-h-[450px] lg:max-h-[400px] object-contain rounded-2xl shadow-2xl"
   />
 </div>
+
+
 {/* ================================= */}
 
 {/* Featured Products */}
@@ -163,6 +172,13 @@ const Index = () => {
     </div>
   </div>
 </section>
+
+      <div className="w-full my-14 px-4 flex justify-center">
+  <img
+    src="/photos/serrum-2.png"
+    alt="Promo Banner"
+className="w-full max-h-[600px] md:max-h-[450px] lg:max-h-[400px] object-contain rounded-2xl shadow-2xl"  />
+</div>
 
 
       {/* CTA Section */}
