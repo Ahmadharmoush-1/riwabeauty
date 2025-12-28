@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ShoppingBag } from 'lucide-react';
+import { Menu, X, ShoppingBag, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useCart } from '@/context/CartContext';
 import { cn } from '@/lib/utils';
@@ -53,12 +53,28 @@ const Header = () => {
           </nav>
 
           {/* Actions */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
+            {/* Instagram */}
+            <a
+              href="https://www.instagram.com/riwabeautyy/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                variant="ghost"
+                size="icon"
+                className="text-[#FF77A9] hover:bg-pink-100"
+              >
+                <Instagram className="h-5 w-5" />
+              </Button>
+            </a>
+
+            {/* Cart */}
             <Link to="/cart" className="relative">
               <Button variant="ghost" size="icon" className="relative">
-                <ShoppingBag className="h-5 w-5" />
+                <ShoppingBag className="h-5 w-5 text-[#FF77A9]" />
                 {totalItems > 0 && (
-                  <span className="absolute -top-1 -right-1 h-5 w-5 rounded-full bg-primary text-xs font-medium flex items-center justify-center text-primary-foreground animate-scale-in">
+                  <span className="absolute -top-1 -right-1 h-5 w-5 rounded-full bg-[#FF77A9] text-xs font-medium flex items-center justify-center text-white animate-scale-in">
                     {totalItems}
                   </span>
                 )}

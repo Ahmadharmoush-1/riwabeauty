@@ -51,7 +51,11 @@ const Index = () => {
               className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up"
               style={{ animationDelay: '0.3s' }}
             >
-              <Button asChild variant="secondary" size="lg">
+               <Button
+      asChild
+      size="lg"
+      className="bg-pink-600 text-white hover:bg-pink-700"
+    >
                 <Link to="/shop">
                   Shop Now <ArrowRight className="h-5 w-5 ml-2" />
                 </Link>
