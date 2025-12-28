@@ -178,22 +178,32 @@ const ProductDetail = () => {
         </div>
 
         {/* Related Products */}
-        {relatedProducts.length > 0 && (
-          <section>
-            <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">You May Also Like</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-              {relatedProducts.map((product, index) => (
-                <div
-                  key={product.id}
-                  className="animate-fade-in-up"
-                  style={{ animationDelay: `${index * 0.1}s` }}
-                >
-                  <ProductCard product={product} />
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
+       {relatedProducts.length > 0 && (
+  <section>
+    {/* Big Image */}
+    <div className="w-full mb-8">
+      <img 
+        src="/photos/serrum-1.png"     // change to your image path
+        alt="Featured Product"
+        className="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg"
+      />
+    </div>
+
+    <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">You May Also Like</h2>
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+      {relatedProducts.map((product, index) => (
+        <div
+          key={product.id}
+          className="animate-fade-in-up"
+          style={{ animationDelay: `${index * 0.1}s` }}
+        >
+          <ProductCard product={product} />
+        </div>
+      ))}
+    </div>
+  </section>
+)}
+
       </div>
     </Layout>
   );

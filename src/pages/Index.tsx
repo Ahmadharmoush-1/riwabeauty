@@ -97,62 +97,73 @@ const Index = () => {
 
       {/* Categories */}
       <section className="py-12 md:py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-10">
-            <h2 className="font-heading text-3xl md:text-4xl font-bold mb-3">Shop by Category</h2>
-            <p className="text-muted-foreground">Find exactly what you're looking for</p>
-          </div>
+  <div className="container mx-auto px-4">
+    <div className="text-center mb-10">
+      <h2 className="font-heading text-3xl md:text-4xl font-bold mb-3">Shop by Category</h2>
+      <p className="text-muted-foreground">Find exactly what you're looking for</p>
+    </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-            {categories.map((category, index) => (
-              <div
-                key={category.id}
-                className="animate-fade-in-up"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <CategoryCard {...category} />
-              </div>
-            ))}
-          </div>
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+      {categories.map((category, index) => (
+        <div
+          key={category.id}
+          className="animate-fade-in-up"
+          style={{ animationDelay: `${index * 0.1}s` }}
+        >
+          <CategoryCard {...category} />
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
-      {/* Featured Products */}
-      <section className="py-12 md:py-20 gradient-cream">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between mb-10">
-            <div>
-              <h2 className="font-heading text-3xl md:text-4xl font-bold mb-2">Featured Products</h2>
-              <p className="text-muted-foreground">Our most loved items</p>
-            </div>
-            <Button asChild variant="outline" className="hidden md:inline-flex">
-              <Link to="/shop">
-                View All <ArrowRight className="h-4 w-4 ml-2" />
-              </Link>
-            </Button>
-          </div>
+{/* ===== BIG IMAGE SECTION HERE ===== */}
+<div className="w-full my-10">
+  <img
+    src="/photos/serrum-1.png"   // <-- change to your image path
+    alt="Promo Banner"
+    className="w-full h-[650px] md:h-[900px] object-cover rounded-2xl shadow-2xl"
+  />
+</div>
+{/* ================================= */}
 
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-            {featuredProducts.map((product, index) => (
-              <div
-                key={product.id}
-                className="animate-fade-in-up"
-                style={{ animationDelay: `${index * 0.05}s` }}
-              >
-                <ProductCard product={product} />
-              </div>
-            ))}
-          </div>
+{/* Featured Products */}
+<section className="py-12 md:py-20 gradient-cream">
+  <div className="container mx-auto px-4">
+    <div className="flex items-center justify-between mb-10">
+      <div>
+        <h2 className="font-heading text-3xl md:text-4xl font-bold mb-2">Featured Products</h2>
+        <p className="text-muted-foreground">Our most loved items</p>
+      </div>
+      <Button asChild variant="outline" className="hidden md:inline-flex">
+        <Link to="/shop">
+          View All <ArrowRight className="h-4 w-4 ml-2" />
+        </Link>
+      </Button>
+    </div>
 
-          <div className="mt-8 text-center md:hidden">
-            <Button asChild variant="outline">
-              <Link to="/shop">
-                View All Products <ArrowRight className="h-4 w-4 ml-2" />
-              </Link>
-            </Button>
-          </div>
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+      {featuredProducts.map((product, index) => (
+        <div
+          key={product.id}
+          className="animate-fade-in-up"
+          style={{ animationDelay: `${index * 0.05}s` }}
+        >
+          <ProductCard product={product} />
         </div>
-      </section>
+      ))}
+    </div>
+
+    <div className="mt-8 text-center md:hidden">
+      <Button asChild variant="outline">
+        <Link to="/shop">
+          View All Products <ArrowRight className="h-4 w-4 ml-2" />
+        </Link>
+      </Button>
+    </div>
+  </div>
+</section>
+
 
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-[#FFB7CE]">
