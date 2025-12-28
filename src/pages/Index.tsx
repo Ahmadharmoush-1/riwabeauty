@@ -39,12 +39,13 @@ const Index = () => {
 
 
             <p
-              className="text-lg text-muted-foreground mb-8 animate-fade-in-up"
-              style={{ animationDelay: '0.2s' }}
-            >
-              Discover our curated collection of premium cosmetics, hair care, and body care products
-              designed to bring out your inner glow.
-            </p>
+  className="text-lg text-white mb-8 animate-fade-in-up"
+  style={{ animationDelay: '0.2s' }}
+>
+  Discover our curated collection of premium cosmetics, hair care, and body care products
+  designed to bring out your inner glow.
+</p>
+
 
             <div
               className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up"

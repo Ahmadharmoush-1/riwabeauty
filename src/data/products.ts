@@ -11,10 +11,10 @@ export const products: Product[] = [
       '/photos/NADPEPTIDEBOOSTINGSERUM-1.png',
       '/photos/NADPEPTIDEBOOSTINGSERUM-2.png',
       '/photos/NADPEPTIDEBOOSTINGSERUM-3.png',
-      
     ],
     category: 'cosmetics',
-    description: 'Long-lasting velvet matte finish lipstick in a beautiful rose shade. Enriched with vitamin E for soft, hydrated lips all day long.',
+    description:
+      'Advanced anti-aging serum powered by NAD+ and peptides to improve skin elasticity, boost cell renewal, and restore a youthful, radiant complexion.',
   },
   {
     id: 'cos-2',
@@ -24,10 +24,10 @@ export const products: Product[] = [
       '/photos/EQQUALBERRY.png',
       '/photos/EQQUALBERRY-1.png',
       '/photos/HyaltoinFloodingSerum-2.png',
-      
     ],
     category: 'cosmetics',
-    description: 'Lightweight, buildable coverage foundation that gives you a natural, luminous finish. SPF 15 protection included.',
+    description:
+      'Deeply hydrating serum formulated with hyaluronic acid and allantoin to flood the skin with moisture, soothe irritation, and strengthen the skin barrier.',
   },
   {
     id: 'cos-3',
@@ -37,10 +37,10 @@ export const products: Product[] = [
       '/photos/AloePDRNCalmingSerum.png',
       '/photos/AloePDRNCalmingSerum-1.png',
       '/photos/AloePDRNCalmingSerum-2.png',
-      
     ],
     category: 'cosmetics',
-    description: 'Four beautiful blush shades from soft pink to deep rose. Silky smooth texture for a natural flush of color.',
+    description:
+      'Soothing repair serum enriched with aloe vera and PDRN to calm sensitive skin, reduce redness, and support skin regeneration.',
   },
   {
     id: 'cos-4',
@@ -50,10 +50,10 @@ export const products: Product[] = [
       '/photos/BAKUCHIOLPLUMPINGSERUM.png',
       '/photos/BAKUCHIOLPLUMPINGSERUM-1.png',
       '/photos/BAKUCHIOLPLUMPINGSERUM-2.png',
-      
     ],
     category: 'cosmetics',
-    description: 'Dramatic volume and length without clumping. Smudge-proof formula lasts up to 24 hours.',
+    description:
+      'Gentle retinol alternative serum with bakuchiol that visibly plumps skin, smooths fine lines, and improves firmness without irritation.',
   },
   {
     id: 'cos-5',
@@ -63,12 +63,12 @@ export const products: Product[] = [
       '/photos/VITAMINILLUMINATINGSERUM.png',
       '/photos/VITAMINILLUMINATINGSERUM-1.png',
       '/photos/VITAMINILLUMINATINGSERUM-2.png',
-
       '/photos/VITAMINILLUMINATINGSERUM-3.png',
       '/photos/VITAMINILLUMINATINGSERUM-4.png',
     ],
     category: 'cosmetics',
-    description: '12 stunning shades inspired by golden sunsets. Mix of matte, shimmer, and glitter finishes.',
+    description:
+      'Brightening vitamin serum designed to even skin tone, fade dark spots, and enhance natural glow for a fresh, luminous look.',
   },
   {
     id: 'cos-6',
@@ -76,16 +76,15 @@ export const products: Product[] = [
     price: 20.99,
     images: [
       '/photos/DRALTHEA345RELIEFCREAM.png',
-      // '/photos/DRALTHEA345RELIEFCREAM-1.png',
       '/photos/DRALTHEA345RELIEFCREAM-2.png',
       '/photos/DRALTHEA345RELIEFCREAM-3.png',
       '/photos/DRALTHEA345RELIEFCREAM-4.png',
-      
     ],
     category: 'cosmetics',
-    description: 'Set of 4 hydrating lip glosses in nude to berry shades. Non-sticky formula with vitamin E.',
+    description:
+      'Barrier-repair cream formulated with calming ingredients to relieve redness, deeply moisturize, and protect stressed or sensitive skin.',
   },
-   {
+  {
     id: 'cos-16',
     name: 'Dr.Althea 147 Barrier Cream 50ml',
     price: 20.99,
@@ -94,12 +93,12 @@ export const products: Product[] = [
       '/photos/147BarrierCream-1.png',
       '/photos/147BarrierCream-2.png',
       '/photos/147BarrierCream-3.png',
-      
-      
     ],
     category: 'cosmetics',
-    description: 'Set of 4 hydrating lip glosses in nude to berry shades. Non-sticky formula with vitamin E.',
-  }, {
+    description:
+      'Intensive barrier-strengthening cream that locks in moisture, repairs damaged skin, and provides long-lasting hydration.',
+  },
+  {
     id: 'cos-7',
     name: 'MEDICUBE P.D.R.N PINK PEPTIDE SERUM',
     price: 19.99,
@@ -108,25 +107,26 @@ export const products: Product[] = [
       '/photos/MedicubePDRNPINKPEPTIDESERUM-1.png',
       '/photos/MedicubePDRNPINKPEPTIDESERUM-2.png',
       '/photos/MedicubePDRNPINKPEPTIDESERUM-3.png',
-      
     ],
     category: 'cosmetics',
-    description: 'Set of 4 hydrating lip glosses in nude to berry shades. Non-sticky formula with vitamin E.',
+    description:
+      'High-performance peptide serum with PDRN to enhance skin firmness, improve elasticity, and promote a healthy pink glow.',
   },
   {
     id: 'cos-8',
-    name: 'Medicube collagen night wrapping mask',
+    name: 'Medicube Collagen Night Wrapping Mask',
     price: 20.99,
     images: [
       '/photos/Medicubecollagennightwrappingmask.png',
       '/photos/Medicubecollagennightwrappingmask-1.png',
       '/photos/Medicubecollagennightwrappingmask-2.png',
       '/photos/Medicubecollagennightwrappingmask-3.png',
-      
     ],
     category: 'cosmetics',
-    description: 'Set of 4 hydrating lip glosses in nude to berry shades. Non-sticky formula with vitamin E.',
-  },{
+    description:
+      'Overnight collagen mask that wraps skin in moisture while you sleep, leaving it firmer, smoother, and deeply nourished by morning.',
+  },
+  {
     id: 'cos-9',
     name: 'Centella Brightening Capsule Ampoule 100ml',
     price: 19.99,
@@ -134,27 +134,27 @@ export const products: Product[] = [
       '/photos/CentellaBrighteningCapsuleAmpoule.png',
       '/photos/CentellaBrighteningCapsuleAmpoule-1.png',
       '/photos/CentellaBrighteningCapsuleAmpoule-2.png',
-     
-      
     ],
     category: 'cosmetics',
-    description: ' Intensive Soothing & Brightening Skincare Solution with Madagascar Centella Asiatica Extracts',
+    description:
+      'Soothing ampoule with encapsulated brightening ingredients and Centella Asiatica to calm skin while improving tone and clarity.',
   },
-{
+  {
     id: 'cos-10',
-    name: 'Anua - Niacinamide 10% + Txa 4% Serum',
+    name: 'Anua - Niacinamide 10% + TXA 4% Serum',
     price: 19.99,
     images: [
       '/photos/Anua.png',
       '/photos/Anua-1.png',
       '/photos/Anua-2.png',
       '/photos/Anua-3.png',
-
       '/photos/Anua-4.png',
     ],
     category: 'cosmetics',
-    description: ' Intensive Soothing & Brightening Skincare Solution with Madagascar Centella Asiatica Extracts',
-  },{
+    description:
+      'Powerful brightening serum combining niacinamide and tranexamic acid to reduce dark spots, control oil, and refine skin texture.',
+  },
+  {
     id: 'cos-11',
     name: 'CELIMAX THE VITA A RETINAL SHOT TIGHTENING BOOSTER',
     price: 20.99,
@@ -162,12 +162,10 @@ export const products: Product[] = [
       '/photos/CELIMAXTHEVITA.png',
       '/photos/CELIMAXTHEVITA-1.png',
       '/photos/CELIMAXTHEVITA-2.png',
-      
-
-   
     ],
     category: 'cosmetics',
-    description: ' Intensive Soothing & Brightening Skincare Solution with Madagascar Centella Asiatica Extracts',
+    description:
+      'Concentrated retinal booster designed to tighten pores, smooth wrinkles, and enhance overall skin firmness.',
   },
   {
     id: 'cos-12',
@@ -179,13 +177,12 @@ export const products: Product[] = [
       '/photos/numbuzin-2.png',
       '/photos/numbuzin-3.png',
       '/photos/numbuzin-4.png',
-      
-
-   
     ],
     category: 'cosmetics',
-    description: ' Intensive Soothing & Brightening Skincare Solution with Madagascar Centella Asiatica Extracts',
-  }, {
+    description:
+      'Targeted eye cream with NAD and RetinA to reduce fine lines, improve elasticity, and restore volume around the eyes.',
+  },
+  {
     id: 'cos-13',
     name: 'SOME BY MI Retinol Intense Advanced Triple Action Eye Cream',
     price: 20.99,
@@ -193,15 +190,12 @@ export const products: Product[] = [
       '/photos/SOMEBYM.png',
       '/photos/SOMEBYM-1.png',
       '/photos/SOMEBYM-2.png',
-     
-      
-
-   
     ],
     category: 'cosmetics',
-    description: ' Intensive Soothing & Brightening Skincare Solution with Madagascar Centella Asiatica Extracts',
+    description:
+      'Triple-action eye cream with retinol to target wrinkles, dark circles, and loss of firmness for brighter-looking eyes.',
   },
-   {
+  {
     id: 'cos-14',
     name: 'CELIMAX THE VITA A RETINOL SHOT TIGHTENING SERUM 30ML',
     price: 19.99,
@@ -210,15 +204,12 @@ export const products: Product[] = [
       '/photos/CELIMAXTHEVITAARETINOL-1.png',
       '/photos/CELIMAXTHEVITAARETINOL-2.png',
       '/photos/CELIMAXTHEVITAARETINOL-3.png',
-      
-      
-
-   
     ],
     category: 'cosmetics',
-    description: ' Intensive Soothing & Brightening Skincare Solution with Madagascar Centella Asiatica Extracts',
+    description:
+      'Retinol-based tightening serum that improves skin texture, reduces wrinkles, and enhances elasticity with regular use.',
   },
-   {
+  {
     id: 'cos-15',
     name: 'Lait-Crème Concentré - #1 Bestseller Moisturizer',
     price: 22.99,
@@ -226,14 +217,13 @@ export const products: Product[] = [
       '/photos/Lait-CrèmeConcentré.png',
       '/photos/Lait-CrèmeConcentré-1.png',
       '/photos/Lait-CrèmeConcentré-2.png',
-     
-      
-
-   
     ],
     category: 'cosmetics',
-    description: ' Intensive Soothing & Brightening Skincare Solution with Madagascar Centella Asiatica Extracts',
+    description:
+      'Cult-favorite multi-purpose moisturizer that deeply nourishes, smooths skin, and delivers instant comfort and glow.',
   },
+
+
   // Hair Care
   {
     id: 'hair-1',
