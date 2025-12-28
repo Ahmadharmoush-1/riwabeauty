@@ -151,20 +151,27 @@ const Index = () => {
 
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-[#FFB7CE]">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">
-            Ready to Glow?
-          </h2>
-          <p className="text-muted-foreground mb-8 max-w-lg mx-auto">
-            Order now and receive your favorite beauty products delivered straight to your door. Easy ordering via WhatsApp!
-          </p>
-          <Button asChild variant="secondary" size="lg">
-            <Link to="/shop">
-              Start Shopping <ArrowRight className="h-5 w-5 ml-2" />
-            </Link>
-          </Button>
-        </div>
-      </section>
+  <div className="container mx-auto px-4 text-center">
+    <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4 text-white">
+      Ready to Glow?
+    </h2>
+
+    <p className="mb-8 max-w-lg mx-auto text-white/90">
+      Order now and receive your favorite beauty products delivered straight to your door. Easy ordering via WhatsApp!
+    </p>
+
+    <Button
+      asChild
+      size="lg"
+      className="bg-pink-600 text-white hover:bg-pink-700"
+    >
+      <Link to="/shop">
+        Start Shopping <ArrowRight className="h-5 w-5 ml-2" />
+      </Link>
+    </Button>
+  </div>
+</section>
+
     </Layout>
   );
 };

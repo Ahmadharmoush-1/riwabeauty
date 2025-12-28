@@ -427,24 +427,28 @@ export const categories = [
     name: 'Cosmetics',
     description: 'Lipsticks, foundations, and more',
     image: "/photos/serums.png",
+    comingSoon: false,
   },
   {
     id: 'hair-care',
     name: 'Hair Care',
     description: 'Shampoos, treatments & styling',
-    image: "",
+    image: "/photos/haircarecomingsoon.png",
+    comingSoon: true,
   },
   {
     id: 'body-care',
     name: 'Body Care',
     description: 'Lotions, scrubs & body oils',
-    image: "",
+    image: "/photos/bodycarecomingsoon.png",
+    comingSoon: true,
   },
   {
     id: 'others',
     name: 'Others',
     description: 'Tools, accessories & more',
-    image: "",
+    image: "/photos/otherscomingsoon.png",
+    comingSoon: true,
   },
 ];
 
