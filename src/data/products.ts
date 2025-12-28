@@ -11,6 +11,8 @@ export const products: Product[] = [
       '/photos/NADPEPTIDEBOOSTINGSERUM-1.png',
       '/photos/NADPEPTIDEBOOSTINGSERUM-2.png',
       '/photos/NADPEPTIDEBOOSTINGSERUM-3.png',
+      '/photos/NADPEPTIDEBOOSTINGSERUM-4.png',
+      '/photos/NADPEPTIDEBOOSTINGSERUM-5.png',
     ],
     category: 'cosmetics',
     description:
@@ -23,7 +25,9 @@ export const products: Product[] = [
     images: [
       '/photos/EQQUALBERRY.png',
       '/photos/EQQUALBERRY-1.png',
-      '/photos/HyaltoinFloodingSerum-2.png',
+      '/photos/HYALTOINFLOODINGSERUM-3.png',
+      '/photos/HYALTOINFLOODINGSERUM-4.png',
+      '/photos/HYALTOINFLOODINGSERUM-5.png',
     ],
     category: 'cosmetics',
     description:
@@ -37,6 +41,8 @@ export const products: Product[] = [
       '/photos/AloePDRNCalmingSerum.png',
       '/photos/AloePDRNCalmingSerum-1.png',
       '/photos/AloePDRNCalmingSerum-2.png',
+      '/photos/AloePDRNCalmingSerum-3.png',
+      '/photos/AloePDRNCalmingSerum-4.png',
     ],
     category: 'cosmetics',
     description:
