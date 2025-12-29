@@ -176,7 +176,7 @@ export const products: Product[] = [
   {
     id: 'cos-12',
     name: 'NUMBUZIN No. 9 NAD RetinA Volume Shot Eye Cream 10ml',
-    price: 21,
+    price: 23,
     images: [
       '/photos/numbuzin.png',
       '/photos/numbuzin-1.png',
