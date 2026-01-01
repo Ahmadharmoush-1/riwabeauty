@@ -91,7 +91,7 @@ export const products: Product[] = [
       'Barrier-repair cream formulated with calming ingredients to relieve redness, deeply moisturize, and protect stressed or sensitive skin.',
   },
   {
-    id: 'cos-16',
+    id: 'cos-7',
     name: 'Dr.Althea 147 Barrier Cream 50ml',
     price: 21,
     images: [
@@ -105,7 +105,7 @@ export const products: Product[] = [
       'Intensive barrier-strengthening cream that locks in moisture, repairs damaged skin, and provides long-lasting hydration.',
   },
   {
-    id: 'cos-7',
+    id: 'cos-8',
     name: 'MEDICUBE P.D.R.N PINK PEPTIDE SERUM',
     price: 20,
     images: [
@@ -119,7 +119,7 @@ export const products: Product[] = [
       'High-performance peptide serum with PDRN to enhance skin firmness, improve elasticity, and promote a healthy pink glow.',
   },
   {
-    id: 'cos-8',
+    id: 'cos-9',
     name: 'Medicube Collagen Night Wrapping Mask',
     price: 21,
     images: [
@@ -133,7 +133,7 @@ export const products: Product[] = [
       'Overnight collagen mask that wraps skin in moisture while you sleep, leaving it firmer, smoother, and deeply nourished by morning.',
   },
   {
-    id: 'cos-9',
+    id: 'cos-10',
     name: 'Centella Brightening Capsule Ampoule 100ml',
     price: 20,
     images: [
@@ -146,7 +146,7 @@ export const products: Product[] = [
       'Soothing ampoule with encapsulated brightening ingredients and Centella Asiatica to calm skin while improving tone and clarity.',
   },
   {
-    id: 'cos-10',
+    id: 'cos-11',
     name: 'Anua - Niacinamide 10% + TXA 4% Serum',
     price: 20,
     images: [
@@ -161,7 +161,7 @@ export const products: Product[] = [
       'Powerful brightening serum combining niacinamide and tranexamic acid to reduce dark spots, control oil, and refine skin texture.',
   },
   {
-    id: 'cos-11',
+    id: 'cos-12',
     name: 'CELIMAX THE VITA A RETINAL SHOT TIGHTENING BOOSTER',
     price: 21,
     images: [
@@ -174,7 +174,7 @@ export const products: Product[] = [
       'Concentrated retinal booster designed to tighten pores, smooth wrinkles, and enhance overall skin firmness.',
   },
   {
-    id: 'cos-12',
+    id: 'cos-13',
     name: 'NUMBUZIN No. 9 NAD RetinA Volume Shot Eye Cream 10ml',
     price: 23,
     images: [
@@ -189,7 +189,7 @@ export const products: Product[] = [
       'Targeted eye cream with NAD and RetinA to reduce fine lines, improve elasticity, and restore volume around the eyes.',
   },
   {
-    id: 'cos-13',
+    id: 'cos-14',
     name: 'SOME BY MI Retinol Intense Advanced Triple Action Eye Cream',
     price: 21,
     images: [
@@ -202,7 +202,7 @@ export const products: Product[] = [
       'Triple-action eye cream with retinol to target wrinkles, dark circles, and loss of firmness for brighter-looking eyes.',
   },
   {
-    id: 'cos-14',
+    id: 'cos-15',
     name: 'CELIMAX THE VITA A RETINOL SHOT TIGHTENING SERUM 30ML',
     price: 20,
     images: [
@@ -216,7 +216,7 @@ export const products: Product[] = [
       'Retinol-based tightening serum that improves skin texture, reduces wrinkles, and enhances elasticity with regular use.',
   },
   {
-    id: 'cos-15',
+    id: 'cos-16',
     name: 'Lait-Crème Concentré - #1 Bestseller Moisturizer',
     price: 23,
     images: [
@@ -228,226 +228,111 @@ export const products: Product[] = [
     description:
       'Cult-favorite multi-purpose moisturizer that deeply nourishes, smooths skin, and delivers instant comfort and glow.',
   },
-
-
-  // Hair Care
-  // {
-  //   id: 'hair-1',
-  //   name: 'Argan Oil Shampoo',
-  //   price: 22.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'hair-care',
-  //   description: 'Nourishing shampoo infused with pure Moroccan argan oil. Restores shine and softness to dry, damaged hair.',
-  // },
-  // {
-  //   id: 'hair-2',
-  //   name: 'Keratin Conditioner',
-  //   price: 24.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1601612628452-9e99ced43524?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'hair-care',
-  //   description: 'Deep conditioning treatment with keratin protein. Strengthens and smooths frizzy hair.',
-  // },
-  // {
-  //   id: 'hair-3',
-  //   name: 'Hair Growth Serum',
-  //   price: 34.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'hair-care',
-  //   description: 'Powerful serum with biotin and caffeine to stimulate hair growth and reduce hair fall.',
-  // },
-  // {
-  //   id: 'hair-4',
-  //   name: 'Heat Protection Spray',
-  //   price: 18.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1601612628452-9e99ced43524?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'hair-care',
-  //   description: 'Lightweight spray protects hair from heat damage up to 450°F. Adds shine without weighing hair down.',
-  // },
-  // {
-  //   id: 'hair-5',
-  //   name: 'Silk Hair Mask',
-  //   price: 29.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1601612628452-9e99ced43524?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'hair-care',
-  //   description: 'Intensive repair mask with silk proteins. Transforms dry, brittle hair into silky soft strands.',
-  // },
-
-  // // Body Care
-  // {
-  //   id: 'body-1',
-  //   name: 'Rose Body Lotion',
-  //   price: 26.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1570194065650-d99fb4b38b15?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'body-care',
-  //   description: 'Luxurious body lotion with rose extract and shea butter. Deep hydration that lasts all day.',
-  // },
-  // {
-  //   id: 'body-2',
-  //   name: 'Exfoliating Body Scrub',
-  //   price: 21.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1570194065650-d99fb4b38b15?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'body-care',
-  //   description: 'Gentle yet effective scrub with natural sugar crystals and coconut oil. Reveals smooth, glowing skin.',
-  // },
-  // {
-  //   id: 'body-3',
-  //   name: 'Vitamin C Body Serum',
-  //   price: 35.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'body-care',
-  //   description: 'Brightening body serum with vitamin C and hyaluronic acid. Evens skin tone and boosts radiance.',
-  // },
-  // {
-  //   id: 'body-4',
-  //   name: 'Lavender Body Oil',
-  //   price: 28.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1570194065650-d99fb4b38b15?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1594461271668-a3a1f2cce589?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'body-care',
-  //   description: 'Relaxing massage oil with pure lavender essential oil. Nourishes skin while calming the senses.',
-  // },
-  // {
-  //   id: 'body-5',
-  //   name: 'Hand Cream Trio',
-  //   price: 19.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1594461271668-a3a1f2cce589?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'body-care',
-  //   description: 'Three mini hand creams in rose, jasmine, and vanilla. Perfect for on-the-go hydration.',
-  // },
-
-  // // Others
-  // {
-  //   id: 'other-1',
-  //   name: 'Jade Face Roller',
-  //   price: 32.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1590439471364-192aa70c0b53?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1614859324967-6886d3c7d9eb?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'others',
-  //   description: 'Authentic jade stone roller for facial massage. Reduces puffiness and promotes lymphatic drainage.',
-  // },
-  // {
-  //   id: 'other-2',
-  //   name: 'Makeup Brush Set',
-  //   price: 42.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1590439471364-192aa70c0b53?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'others',
-  //   description: '10-piece professional brush set with soft synthetic bristles. Includes case for travel.',
-  // },
-  // {
-  //   id: 'other-3',
-  //   name: 'Rose Facial Mist',
-  //   price: 16.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1614859324967-6886d3c7d9eb?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1590439471364-192aa70c0b53?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1585435557343-3b092031a831?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'others',
-  //   description: 'Refreshing rose water mist to hydrate and set makeup. Perfect for a midday pick-me-up.',
-  // },
-  // {
-  //   id: 'other-4',
-  //   name: 'Silk Sleep Mask',
-  //   price: 24.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1585435557343-3b092031a831?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1614859324967-6886d3c7d9eb?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1590439471364-192aa70c0b53?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'others',
-  //   description: 'Pure mulberry silk sleep mask. Gentle on skin and helps prevent sleep creases.',
-  // },
-  // {
-  //   id: 'other-5',
-  //   name: 'Beauty Blender Set',
-  //   price: 18.99,
-  //   images: [
-  //     'https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=400&h=400&fit=crop',
-  //     'https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=400&h=400&fit=crop',
-  //   ],
-  //   category: 'others',
-  //   description: 'Set of 4 makeup sponges for flawless foundation application. Latex-free and reusable.',
-  // },
+  {
+    id: 'cos-17',
+    name: 'Vaseline Lip Therapy Rosy Lips ',
+    price: 4,
+    images: [
+      '/photos/VASELINE.png',
+    
+    ],
+    category: 'cosmetics',
+    description:
+      'Patch-based treatment series for targeted skin repair and rejuvenation.',
+  },
+   {
+    id: 'cos-18',
+    name: 'MASTERPATCH SERIES', 
+     price: 20,
+    images: [
+      '/photos/MASTERPATCH1111.png',
+      '/photos/MASTERPATCH3.png',
+     '/photos/MASTERPATCH2.png',
+      '/photos/MASTERPATCH4.png',
+      '/photos/MASTERPATCH5.png',
+      '/photos/MASTERPATCH6.png',
+    ],
+    category: 'cosmetics',
+    description:
+      'Patch-based treatment series for targeted skin repair and rejuvenation.',
+  },
+ {
+    id: 'cos-19',
+    name: 'MASTERPATCH SERIES',
+    price: 15,
+    images: [
+      '/photos/MASTERPATCH1.png',
+      '/photos/MASTERPATCH3.png',
+      '/photos/MASTERPATCH2.png',
+      '/photos/MASTERPATCH4.png',
+      '/photos/MASTERPATCH5.png',
+      '/photos/MASTERPATCH6.png',
+    ],
+    category: 'cosmetics',
+    description:
+      'Patch-based treatment series for targeted skin repair and rejuvenation.',
+  },{
+    id: 'cos-20',
+    name: 'MASTERPATCH SERIES',
+    price: 15,
+    images: [
+      '/photos/MASTERPATCH22.png',
+      '/photos/MASTERPATCH23.png',
+      '/photos/MASTERPATCH24.png',
+      '/photos/MASTERPATCH4.png',
+      '/photos/MASTERPATCH5.png',
+      '/photos/MASTERPATCH6.png',
+    ],
+    category: 'cosmetics',
+    description:
+      'Patch-based treatment series for targeted skin repair and rejuvenation.',
+  },
 ];
 
+// Categories
 export const categories = [
   {
     id: 'cosmetics',
     name: 'Cosmetics',
     description: 'Lipsticks, foundations, and more',
-    image: "/photos/serums.png",
+    images: [
+      '/photos/serums.png',
+      '/photos/serums-1.png',
+      '/photos/serums-2.png',
+      '/photos/serums-3.png',
+      '/photos/serums-4.png',
+      '/photos/serums-5.png',
+    ],
     comingSoon: false,
   },
   {
     id: 'hair-care',
     name: 'Hair Care',
     description: 'Shampoos, treatments & styling',
-    image: "/photos/haircarecomingsoon.png",
+    images: ['/photos/haircarecomingsoon.png'],
     comingSoon: true,
   },
   {
     id: 'body-care',
     name: 'Body Care',
     description: 'Lotions, scrubs & body oils',
-    image: "/photos/bodycarecomingsoon.png",
+    images: ['/photos/bodycarecomingsoon.png'],
     comingSoon: true,
   },
   {
     id: 'others',
     name: 'Others',
     description: 'Tools, accessories & more',
-    image: "/photos/otherscomingsoon.png",
+    images: ['/photos/otherscomingsoon.png'],
     comingSoon: true,
   },
 ];
 
-export const getProductById = (id: string) => products.find(p => p.id === id);
-export const getProductsByCategory = (category: string) => products.filter(p => p.category === category);
+// Helper functions
+export const getProductById = (id: string) =>
+  products.find((p) => p.id === id);
+
+export const getProductsByCategory = (category: string) =>
+  products.filter((p) => p.category === category);
+
 export const getFeaturedProducts = () => products.slice(0, 6);
