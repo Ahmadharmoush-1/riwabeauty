@@ -287,7 +287,235 @@ export const products: Product[] = [
     description:
       'Patch-based treatment series for targeted skin repair and rejuvenation.',
   },
-];
+     {
+    id: 'cos-21',
+    name: ' Centella Ampoule', 
+     price: 21,
+    images: [
+      '/photos/CentellaAmpoule1.png',
+      '/photos/CentellaAmpoule2.png',
+     '/photos/CentellaAmpoule3.png',
+      '/photos/CentellaAmpoule4.png',
+      '/photos/CentellaAmpoule5.png',
+      '/photos/CentellaAmpoule6.png',
+      '/photos/CentellaAmpoule7.png',
+      '/photos/CentellaAmpoule8.png',
+    ],
+    category: 'cosmetics',
+    description:
+      'Product Benefits: Soothing, Hydrating . Skin Type: Suitable for all skin types, especially dry and delicate skin. Key Ingredients: Centella Asiatica Extract',
+  },
+   {
+    id: 'cos-22',
+    name: 'Centella Ampoule Foam\nLow pH & Daily Foam Cleanser', 
+     price: 19,
+    images: [
+      '/photos/Centella Ampoule FoamnLow pH & Daily Foam Cleanser.png',
+      '/photos/Centella Ampoule FoamnLow pH & Daily Foam Cleanser2.png',
+     '/photos/Centella Ampoule FoamnLow pH & Daily Foam Cleanser3.png',
+      '/photos/Centella Ampoule FoamnLow pH & Daily Foam Cleanser4.png',
+      '/photos/Centella Ampoule FoamnLow pH & Daily Foam Cleanser5.png',
+      
+    ],
+    category: 'cosmetics',
+    description:
+      'Product Benefits:Soothing, Hydrating, Mild Exfoliation Skin Type: Normal, Sensitivity-prone skin Key Ingredients: Centella Asiatica Extract, Citric Acid, Sodium Hyaluronate',
+  },
+   {
+    id: 'cos-23',
+    name: ' Centella Light Cleansing Oil Light & Gentle Cleansing Oil', 
+     price: 21,
+    images: [
+      '/photos/Centella Light Cleansing Oil/Centella Light Cleansing Oil1.png',
+      '/photos/Centella Light Cleansing Oil/Centella Light Cleansing Oil2.png',
+     '/photos/Centella Light Cleansing Oil/Centella Light Cleansing Oil3.png',
+      '/photos/Centella Light Cleansing Oil/Centella Light Cleansing Oil4.png',
+      '/photos/Centella Light Cleansing Oil/Centella Light Cleansing Oil5.png',
+      '/photos/Centella Light Cleansing Oil/Centella Light Cleansing Oil6.png',
+    ],
+    category: 'cosmetics',
+    description:
+      'Product Benefits:Calming, Hydrating, Mild exfoliating. Skin Type: Normal, Dry, Sensitive. Key Ingredients: Centella Asiatica Extract, Citrus Aurantium Bergamia (Bergamot) Fruit Oil, Helianthus Annuus (Sunflower) Seed Oil, Olea Europaea (Olive) Fruit Oil, Simmondsia Chinensis (Jojoba) Seed Oil', },
+   {
+    id: 'cos-24',
+    name: ' Hyalu-Cica Water-Fit Sun Serum UV Hydrating Daily SPF50 Sun Serum', 
+     price: 23,
+    images: [
+      '/photos/Hyalu-Cica Water-Fit Sun Serum UV/Hyalu-Cica Water-Fit Sun Serum UV1.png',
+      '/photos/Hyalu-Cica Water-Fit Sun Serum UV/Hyalu-Cica Water-Fit Sun Serum UV2.png',
+     '/photos/Hyalu-Cica Water-Fit Sun Serum UV/Hyalu-Cica Water-Fit Sun Serum UV3.png',
+      '/photos/Hyalu-Cica Water-Fit Sun Serum UV/Hyalu-Cica Water-Fit Sun Serum UV4.png',
+      '/photos/Hyalu-Cica Water-Fit Sun Serum UV/Hyalu-Cica Water-Fit Sun Serum UV5.png',
+    ],
+    category: 'cosmetics',
+    description:
+      'Product benefits: Lightweight, UV Protection, Hydrating. Skin type: Dry, Normal. Key ingredients: Centella Asiatica Extract, Hyaluronic Acid, Oryza Sativa (Rice) Extract, Avena Sativa (Oat) Meal Extract, Glycine Max (Soybean) Seed Extract',
+  },
+     {
+    id: 'cos-25',
+    name: 'Poremizing Fresh Ampoule\nPore Cleansing & Tightening Ampoule', 
+     price: 20,
+    images: [
+      '/photos/Ampoule/Ampoule.png',
+      '/photos/Ampoule/Ampoule2.png',
+     '/photos/Ampoule/Ampoule3.png',
+      '/photos/Ampoule/Ampoule4.png',      
+    ],
+    category: 'cosmetics',
+    description:
+      'Product Benefits: Calming, Pore Tightening. Skin Type:Oily, Combination, Sensitive. Key Ingredients: Centella Asiatica Extract, Mineral Salts, Aloe Barbadensis Leaf Extract'
+   },
+     {
+    id: 'cos-26',
+    name: ' Vegan Collagen Eye Serum Size: 10ml / 0.33 fl. oz.', 
+     price: 20,
+    images: [
+      '/photos/Vegan Collagen Eye Serum/eye serum1.png',
+      '/photos/Vegan Collagen Eye Serum/eye serum2.png',
+     '/photos/Vegan Collagen Eye Serum/eye serum3.png',
+      '/photos/Vegan Collagen Eye Serum/eye serum4.png',
+      '/photos/Vegan Collagen Eye Serum/eye serum5.png',       
+    ],
+    category: 'cosmetics',
+    description:
+     'This eye serum not only addresses fine lines, puffiness, and dark circles but also stands out with its exceptionally nourishing and highly absorbent formula.'
+  },
+   {
+    id: 'cos-27',
+    name: 'Relief Sun : Rice + Probiotics (SPF50+ PA++++)', 
+     price: 20,
+    images: [
+      '/photos/Relief Sun/Relief Sun5.png',
+      '/photos/Relief Sun/Relief Sun.png',
+     '/photos/Relief Sun/Relief Sun2.png',
+      '/photos/Relief Sun/Relief Sun3.png',  
+      '/photos/Relief Sun/Relief Sun4.png',     
+    ],
+    category: 'cosmetics',
+    description:
+     'This eye serum not only addresses fine lines, puffiness, and dark circles but also stands out with its exceptionally nourishing and highly absorbent formula.'
+  },
+  {
+    id: 'cos-28',
+    name: 'numbuzin No. 9 NAD Bio Lifting-sil Essence 50ml', 
+     price: 24,
+    images: [
+      '/photos/numbuzin/numbuzin1.png',
+      '/photos/numbuzin/numbuzin2.png',
+     '/photos/numbuzin/numbuzin3.png',
+      '/photos/numbuzin/numbuzin4.png',  
+      '/photos/numbuzin/numbuzin5.png',     
+    ],
+    category: 'cosmetics',
+    description:
+     ' Lightweight NAD+ lifting serum that helps visibly firm the skin and reduce the look of wrinkles and fine lines. Delivers a smoother, lifted appearance without heaviness.'
+  },
+   {
+    id: 'cos-29',
+    name: 'No.9 NAD+ Collagen Under Eye Patches (1 pair )', 
+     price: 7,
+    images: [
+      '/photos/Collagen Under Eye/Collagen1.png',
+      '/photos/Collagen Under Eye/Collagen2.png',
+     '/photos/Collagen Under Eye/Collagen3.png',
+      '/photos/Collagen Under Eye/Collagen4.png',  
+      '/photos/Collagen Under Eye/Collagen5.png',     
+    ],
+    category: 'cosmetics',
+    description:
+    'designed to brighten dark circles, reduce puffiness with caffeine, firm skin with collagen, and hydrate using ingredients like niacinamide and peptides, providing cooling and firming effects for tired eyes.' 
+  },{
+    id: 'cos-30',
+    name: 'NATURE CACUMEN BIOTAE ISATIS INDIGOTICA SHAMPOO BAR', 
+     price: 15,
+    images: [
+      '/photos/Shampoo.png',
+    ],
+    category: 'cosmetics',
+    description:
+     'Gentle shampoo bar formulated with biotae and isatis indigotica to cleanse the scalp, strengthen hair, and promote healthy hair growth'
+  },
+  {
+    id: 'cos-31',
+    name: 'MEDICUBE PDRN COLLAGEN GEL MASK(1pair)', 
+     price: 8,
+    images: [
+      '/photos/Gel/Gel Mask2.png',
+      '/photos/Gel/Gel Mask1.png',
+      '/photos/Gel/Gel Mask3.png',
+      '/photos/Gel/Gel Mask4.png',
+      '/photos/Gel/Gel Mask5.png',
+    ],
+    category: 'cosmetics',
+    description:
+   'Hydrating gel mask infused with PDRN and collagen to deeply moisturize, soothe, and revitalize tired skin for a radiant complexion.'
+    },
+     {
+    id: 'cos-32',
+    name: 'Body Oil for Dry Skin Intensive Care with Natural Cocoa Butter & Vitamin B3', 
+     price: 7,
+    images: [
+      '/photos/Body oil.png',
+      
+    ],
+    category: 'cosmetics',
+    description:
+   'Hydrating gel mask infused with PDRN and collagen to deeply moisturize, soothe, and revitalize tired skin for a radiant complexion.'
+    },
+    {
+    id: 'cos-33',
+    name: 'VASELINE COCOA RADIANT BODY OIL 200ML', 
+     price: 7,
+    images: [
+      '/photos/VASELINE COCOA RADIANT BODY.png',
+      
+    ],
+    category: 'cosmetics',
+    description:
+   'Hydrating gel mask infused with PDRN and collagen to deeply moisturize, soothe, and revitalize tired skin for a radiant complexion.'
+    },
+    {
+    id: 'cos-34',
+    name: 'BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Mask, Pore Minimizing, Elasticity, Plumping Improvement, Korean Skin Care, Gifts for Women | 1.19oz(34g) x 4ea  ', 
+     price: 8,
+    images: [
+      '/photos/Biodance/Biodance1.png',
+      '/photos/Biodance/Biodance2.png',
+      '/photos/Biodance/Biodance3.png',
+      '/photos/Biodance/Biodance4.png',
+      '/photos/Biodance/Biodance5.png',
+      '/photos/Biodance/Biodance6.png',
+    ],
+    category: 'cosmetics',
+    description:
+   'Hydrating gel mask infused with PDRN and collagen to deeply moisturize, soothe, and revitalize tired skin for a radiant complexion.'
+    },
+    {
+    id: 'cos-35',
+    name:'Medicube PDRN Pink Cica Soothing Toner', 
+      price: 21,
+    images: [
+      '/photos/Medicube/Medicube.png',
+      
+    ],
+    category: 'cosmetics',
+    description:
+  'medicube Salmon DNA PDRN Pink CICA Soothing Toner I Pink Glow Toner for Skin Boosting, Soothing and Calming, Uneven Skin Tone, Peptide & Niacinamide, Korean Skin Care (250ml / 8.45 fl. oz.)' 
+  },
+    {
+    id: 'cos-36',
+    name: 'Medicube PDRN Pink Niacinamide Whip Cleanser 120g',
+     price: 21,
+    images: [
+      '/photos/Medicube cleanser/Medcleanser1.png',
+      '/photos/Medicube cleanser/Medcleanser2.png',
+      '/photos/Medicube cleanser/Medcleanser3.png',
+   
+    ],
+    category: 'cosmetics',
+    description:
+   'medicube PDRN Marshmallow Whip Cleanser | Face Wash, Cleansing Foam for Pore Care & Uneven Skin Tone | Gentle Daily Deep Cleansing | Hydrating and Nourishing Facial Cleanser | Korean Skincare' },
+    ];
 
 // Categories
 export const categories = [
