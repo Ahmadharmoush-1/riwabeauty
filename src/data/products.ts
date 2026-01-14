@@ -427,7 +427,7 @@ export const products: Product[] = [
   },{
     id: 'cos-30',
     name: 'NATURE CACUMEN BIOTAE ISATIS INDIGOTICA SHAMPOO BAR', 
-     price: 15,
+     price: 11,
     images: [
       '/photos/Shampoo.png',
     ],
