@@ -143,7 +143,7 @@ export const products: Product[] = [
     ],
     category: 'cosmetics',
     description:
-      'Soothing ampoule with encapsulated brightening ingredients and Centella Asiatica to calm skin while improving tone and clarity.',
+      'Soothing ampoule with encapsulated brightening ingredients and Centella Asiatica.',
   },
   {
     id: 'cos-11',
@@ -158,7 +158,7 @@ export const products: Product[] = [
     ],
     category: 'cosmetics',
     description:
-      'Powerful brightening serum combining niacinamide and tranexamic acid to reduce dark spots, control oil, and refine skin texture.',
+      'Powerful brightening serum combining niacinamide and tranexamic acid.',
   },
   {
     id: 'cos-12',
@@ -171,7 +171,7 @@ export const products: Product[] = [
     ],
     category: 'cosmetics',
     description:
-      'Concentrated retinal booster designed to tighten pores, smooth wrinkles, and enhance overall skin firmness.',
+      'Concentrated retinal booster designed to tighten pores.',
   },
   {
     id: 'cos-13',
@@ -186,7 +186,7 @@ export const products: Product[] = [
     ],
     category: 'cosmetics',
     description:
-      'Targeted eye cream with NAD and RetinA to reduce fine lines, improve elasticity, and restore volume around the eyes.',
+      'Targeted eye cream with NAD and RetinA.',
   },
   {
     id: 'cos-14',
@@ -199,7 +199,7 @@ export const products: Product[] = [
     ],
     category: 'cosmetics',
     description:
-      'Triple-action eye cream with retinol to target wrinkles, dark circles, and loss of firmness for brighter-looking eyes.',
+      'Triple-action eye cream with retinol.',
   },
   {
     id: 'cos-15',
@@ -213,7 +213,7 @@ export const products: Product[] = [
     ],
     category: 'cosmetics',
     description:
-      'Retinol-based tightening serum that improves skin texture, reduces wrinkles, and enhances elasticity with regular use.',
+      'Retinol-based tightening serum.',
   },
   {
     id: 'cos-16',
@@ -226,37 +226,34 @@ export const products: Product[] = [
     ],
     category: 'cosmetics',
     description:
-      'Cult-favorite multi-purpose moisturizer that deeply nourishes, smooths skin, and delivers instant comfort and glow.',
+      'Cult-favorite multi-purpose moisturizer.',
   },
   {
     id: 'cos-17',
     name: 'Vaseline Lip Therapy Rosy Lips ',
     price: 4,
-    images: [
-      '/photos/VASELINE.png',
-    
-    ],
-    category: 'cosmetics',
+    images: ['/photos/VASELINE.png'],
+    category: 'body-care',
     description:
-      'Patch-based treatment series for targeted skin repair and rejuvenation.',
+      'Hydrating lip therapy.',
   },
-   {
+  {
     id: 'cos-18',
-    name: 'MASTERPATCH SERIES', 
-     price: 20,
+    name: 'MASTERPATCH SERIES',
+    price: 20,
     images: [
       '/photos/MASTERPATCH1111.png',
       '/photos/MASTERPATCH3.png',
-     '/photos/MASTERPATCH2.png',
+      '/photos/MASTERPATCH2.png',
       '/photos/MASTERPATCH4.png',
       '/photos/MASTERPATCH5.png',
       '/photos/MASTERPATCH6.png',
     ],
-    category: 'cosmetics',
+    category: 'others',
     description:
-      'Patch-based treatment series for targeted skin repair and rejuvenation.',
+      'Patch-based treatment series.',
   },
- {
+  {
     id: 'cos-19',
     name: 'MASTERPATCH SERIES',
     price: 15,
@@ -268,10 +265,11 @@ export const products: Product[] = [
       '/photos/MASTERPATCH5.png',
       '/photos/MASTERPATCH6.png',
     ],
-    category: 'cosmetics',
+    category: 'others',
     description:
-      'Patch-based treatment series for targeted skin repair and rejuvenation.',
-  },{
+      'Patch-based treatment series.',
+  },
+  {
     id: 'cos-20',
     name: 'MASTERPATCH SERIES',
     price: 15,
@@ -283,18 +281,18 @@ export const products: Product[] = [
       '/photos/MASTERPATCH5.png',
       '/photos/MASTERPATCH6.png',
     ],
-    category: 'cosmetics',
+    category: 'others',
     description:
-      'Patch-based treatment series for targeted skin repair and rejuvenation.',
+      'Patch-based treatment series.',
   },
-     {
+  {
     id: 'cos-21',
-    name: ' Centella Ampoule', 
-     price: 21,
+    name: 'Centella Ampoule',
+    price: 21,
     images: [
       '/photos/CentellaAmpoule1.png',
       '/photos/CentellaAmpoule2.png',
-     '/photos/CentellaAmpoule3.png',
+      '/photos/CentellaAmpoule3.png',
       '/photos/CentellaAmpoule4.png',
       '/photos/CentellaAmpoule5.png',
       '/photos/CentellaAmpoule6.png',
@@ -303,142 +301,142 @@ export const products: Product[] = [
     ],
     category: 'cosmetics',
     description:
-      'Product Benefits: Soothing, Hydrating . Skin Type: Suitable for all skin types, especially dry and delicate skin. Key Ingredients: Centella Asiatica Extract',
+      'Soothing, hydrating ampoule with Centella.',
   },
-   {
+  {
     id: 'cos-22',
-    name: 'Centella Ampoule Foam\nLow pH & Daily Foam Cleanser', 
-     price: 19,
+    name: 'Centella Ampoule Foam Low pH & Daily Foam Cleanser',
+    price: 19,
     images: [
       '/photos/Centella Ampoule FoamnLow pH & Daily Foam Cleanser.png',
       '/photos/Centella Ampoule FoamnLow pH & Daily Foam Cleanser2.png',
-     '/photos/Centella Ampoule FoamnLow pH & Daily Foam Cleanser3.png',
+      '/photos/Centella Ampoule FoamnLow pH & Daily Foam Cleanser3.png',
       '/photos/Centella Ampoule FoamnLow pH & Daily Foam Cleanser4.png',
       '/photos/Centella Ampoule FoamnLow pH & Daily Foam Cleanser5.png',
-      
+
     ],
     category: 'cosmetics',
     description:
-      'Product Benefits:Soothing, Hydrating, Mild Exfoliation Skin Type: Normal, Sensitivity-prone skin Key Ingredients: Centella Asiatica Extract, Citric Acid, Sodium Hyaluronate',
+      'Gentle daily foam cleanser.',
   },
-   {
+  {
     id: 'cos-23',
-    name: ' Centella Light Cleansing Oil Light & Gentle Cleansing Oil', 
-     price: 21,
+    name: 'Centella Light Cleansing Oil',
+    price: 21,
     images: [
       '/photos/Centella Light Cleansing Oil/Centella Light Cleansing Oil1.png',
       '/photos/Centella Light Cleansing Oil/Centella Light Cleansing Oil2.png',
-     '/photos/Centella Light Cleansing Oil/Centella Light Cleansing Oil3.png',
+      '/photos/Centella Light Cleansing Oil/Centella Light Cleansing Oil3.png',
       '/photos/Centella Light Cleansing Oil/Centella Light Cleansing Oil4.png',
       '/photos/Centella Light Cleansing Oil/Centella Light Cleansing Oil5.png',
       '/photos/Centella Light Cleansing Oil/Centella Light Cleansing Oil6.png',
     ],
     category: 'cosmetics',
     description:
-      'Product Benefits:Calming, Hydrating, Mild exfoliating. Skin Type: Normal, Dry, Sensitive. Key Ingredients: Centella Asiatica Extract, Citrus Aurantium Bergamia (Bergamot) Fruit Oil, Helianthus Annuus (Sunflower) Seed Oil, Olea Europaea (Olive) Fruit Oil, Simmondsia Chinensis (Jojoba) Seed Oil', },
-   {
+      'Light and gentle cleansing oil.',
+  },
+  {
     id: 'cos-24',
-    name: ' Hyalu-Cica Water-Fit Sun Serum UV Hydrating Daily SPF50 Sun Serum', 
-     price: 23,
+    name: 'Hyalu-Cica Water-Fit Sun Serum UV',
+    price: 23,
     images: [
       '/photos/Hyalu-Cica Water-Fit Sun Serum UV/Hyalu-Cica Water-Fit Sun Serum UV1.png',
       '/photos/Hyalu-Cica Water-Fit Sun Serum UV/Hyalu-Cica Water-Fit Sun Serum UV2.png',
-     '/photos/Hyalu-Cica Water-Fit Sun Serum UV/Hyalu-Cica Water-Fit Sun Serum UV3.png',
+      '/photos/Hyalu-Cica Water-Fit Sun Serum UV/Hyalu-Cica Water-Fit Sun Serum UV3.png',
       '/photos/Hyalu-Cica Water-Fit Sun Serum UV/Hyalu-Cica Water-Fit Sun Serum UV4.png',
       '/photos/Hyalu-Cica Water-Fit Sun Serum UV/Hyalu-Cica Water-Fit Sun Serum UV5.png',
     ],
     category: 'cosmetics',
     description:
-      'Product benefits: Lightweight, UV Protection, Hydrating. Skin type: Dry, Normal. Key ingredients: Centella Asiatica Extract, Hyaluronic Acid, Oryza Sativa (Rice) Extract, Avena Sativa (Oat) Meal Extract, Glycine Max (Soybean) Seed Extract',
+      'Hydrating daily SPF50 sun serum.',
   },
-     {
+  {
     id: 'cos-25',
-    name: 'Poremizing Fresh Ampoule\nPore Cleansing & Tightening Ampoule', 
-     price: 20,
+    name: 'Poremizing Fresh Ampoule',
+    price: 20,
     images: [
       '/photos/Ampoule/Ampoule.png',
       '/photos/Ampoule/Ampoule2.png',
-     '/photos/Ampoule/Ampoule3.png',
-      '/photos/Ampoule/Ampoule4.png',      
+      '/photos/Ampoule/Ampoule3.png',
+      '/photos/Ampoule/Ampoule4.png',
     ],
     category: 'cosmetics',
     description:
-      'Product Benefits: Calming, Pore Tightening. Skin Type:Oily, Combination, Sensitive. Key Ingredients: Centella Asiatica Extract, Mineral Salts, Aloe Barbadensis Leaf Extract'
-   },
-     {
+      'Pore tightening ampoule.',
+  },
+  {
     id: 'cos-26',
-    name: ' Vegan Collagen Eye Serum Size: 10ml / 0.33 fl. oz.', 
-     price: 20,
+    name: 'Vegan Collagen Eye Serum 10ml',
+    price: 20,
     images: [
       '/photos/Vegan Collagen Eye Serum/eye serum1.png',
       '/photos/Vegan Collagen Eye Serum/eye serum2.png',
-     '/photos/Vegan Collagen Eye Serum/eye serum3.png',
+      '/photos/Vegan Collagen Eye Serum/eye serum3.png',
       '/photos/Vegan Collagen Eye Serum/eye serum4.png',
-      '/photos/Vegan Collagen Eye Serum/eye serum5.png',       
+      '/photos/Vegan Collagen Eye Serum/eye serum5.png',
     ],
     category: 'cosmetics',
     description:
-     'This eye serum not only addresses fine lines, puffiness, and dark circles but also stands out with its exceptionally nourishing and highly absorbent formula.'
+      'Nourishing eye serum.',
   },
-   {
+  {
     id: 'cos-27',
-    name: 'Relief Sun : Rice + Probiotics (SPF50+ PA++++)', 
-     price: 20,
+    name: 'Relief Sun : Rice + Probiotics (SPF50+ PA++++)',
+    price: 20,
     images: [
       '/photos/Relief Sun/Relief Sun5.png',
       '/photos/Relief Sun/Relief Sun.png',
-     '/photos/Relief Sun/Relief Sun2.png',
-      '/photos/Relief Sun/Relief Sun3.png',  
-      '/photos/Relief Sun/Relief Sun4.png',     
+      '/photos/Relief Sun/Relief Sun2.png',
+      '/photos/Relief Sun/Relief Sun3.png',
+      '/photos/Relief Sun/Relief Sun4.png',
     ],
     category: 'cosmetics',
     description:
-     'This eye serum not only addresses fine lines, puffiness, and dark circles but also stands out with its exceptionally nourishing and highly absorbent formula.'
+      'Soothing probiotic sunscreen.',
   },
   {
     id: 'cos-28',
-    name: 'numbuzin No. 9 NAD Bio Lifting-sil Essence 50ml', 
-     price: 24,
+    name: 'numbuzin No. 9 NAD Bio Lifting-sil Essence 50ml',
+    price: 24,
     images: [
       '/photos/numbuzin/numbuzin1.png',
       '/photos/numbuzin/numbuzin2.png',
-     '/photos/numbuzin/numbuzin3.png',
-      '/photos/numbuzin/numbuzin4.png',  
-      '/photos/numbuzin/numbuzin5.png',     
+      '/photos/numbuzin/numbuzin3.png',
+      '/photos/numbuzin/numbuzin4.png',
+      '/photos/numbuzin/numbuzin5.png',
     ],
     category: 'cosmetics',
     description:
-     ' Lightweight NAD+ lifting serum that helps visibly firm the skin and reduce the look of wrinkles and fine lines. Delivers a smoother, lifted appearance without heaviness.'
+      'Lightweight NAD+ lifting essence.',
   },
-   {
+  {
     id: 'cos-29',
-    name: 'No.9 NAD+ Collagen Under Eye Patches (1 pair )', 
-     price: 7,
+    name: 'No.9 NAD+ Collagen Under Eye Patches (1 pair )',
+    price: 7,
     images: [
       '/photos/Collagen Under Eye/Collagen1.png',
       '/photos/Collagen Under Eye/Collagen2.png',
-     '/photos/Collagen Under Eye/Collagen3.png',
-      '/photos/Collagen Under Eye/Collagen4.png',  
-      '/photos/Collagen Under Eye/Collagen5.png',     
+      '/photos/Collagen Under Eye/Collagen3.png',
+      '/photos/Collagen Under Eye/Collagen4.png',
+      '/photos/Collagen Under Eye/Collagen5.png',
     ],
     category: 'cosmetics',
     description:
-    'designed to brighten dark circles, reduce puffiness with caffeine, firm skin with collagen, and hydrate using ingredients like niacinamide and peptides, providing cooling and firming effects for tired eyes.' 
-  },{
+      'Brightening collagen under eye patches.',
+  },
+  {
     id: 'cos-30',
-    name: 'NATURE CACUMEN BIOTAE ISATIS INDIGOTICA SHAMPOO BAR', 
-     price: 11,
-    images: [
-      '/photos/Shampoo.png',
-    ],
-    category: 'cosmetics',
+    name: 'NATURE CACUMEN BIOTAE ISATIS INDIGOTICA SHAMPOO BAR',
+    price: 11,
+    images: ['/photos/Shampoo.png'],
+    category: 'hair-care',
     description:
-     'Gentle shampoo bar formulated with biotae and isatis indigotica to cleanse the scalp, strengthen hair, and promote healthy hair growth'
+      'Gentle shampoo bar.',
   },
   {
     id: 'cos-31',
-    name: 'MEDICUBE PDRN COLLAGEN GEL MASK(1pair)', 
-     price: 8,
+    name: 'MEDICUBE PDRN COLLAGEN GEL MASK(1pair)',
+    price: 8,
     images: [
       '/photos/Gel/Gel Mask2.png',
       '/photos/Gel/Gel Mask1.png',
@@ -448,36 +446,30 @@ export const products: Product[] = [
     ],
     category: 'cosmetics',
     description:
-   'Hydrating gel mask infused with PDRN and collagen to deeply moisturize, soothe, and revitalize tired skin for a radiant complexion.'
-    },
-     {
+      'Hydrating collagen gel mask.',
+  },
+  {
     id: 'cos-32',
-    name: 'Body Oil for Dry Skin Intensive Care with Natural Cocoa Butter & Vitamin B3', 
-     price: 7,
-    images: [
-      '/photos/Body oil.png',
-      
-    ],
-    category: 'cosmetics',
+    name: 'Body Oil for Dry Skin Intensive Care with Natural Cocoa Butter & Vitamin B3',
+    price: 7,
+    images: ['/photos/Body oil.png'],
+    category: 'body-care',
     description:
-   'Hydrating gel mask infused with PDRN and collagen to deeply moisturize, soothe, and revitalize tired skin for a radiant complexion.'
-    },
-    {
+      'Intensive care body oil.',
+  },
+  {
     id: 'cos-33',
-    name: 'VASELINE COCOA RADIANT BODY OIL 200ML', 
-     price: 7,
-    images: [
-      '/photos/VASELINE COCOA RADIANT BODY.png',
-      
-    ],
-    category: 'cosmetics',
+    name: 'VASELINE COCOA RADIANT BODY OIL 200ML',
+    price: 7,
+    images: ['/photos/VASELINE COCOA RADIANT BODY.png'],
+    category: 'body-care',
     description:
-   'Hydrating gel mask infused with PDRN and collagen to deeply moisturize, soothe, and revitalize tired skin for a radiant complexion.'
-    },
-    {
+      'Radiant cocoa body oil.',
+  },
+  {
     id: 'cos-34',
-    name: 'BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Mask, Pore Minimizing, Elasticity, Plumping Improvement, Korean Skin Care, Gifts for Women | 1.19oz(34g) x 4ea  ', 
-     price: 8,
+    name: 'BIODANCE Bio-Collagen Real Deep Mask',
+    price: 8,
     images: [
       '/photos/Biodance/Biodance1.png',
       '/photos/Biodance/Biodance2.png',
@@ -488,41 +480,82 @@ export const products: Product[] = [
     ],
     category: 'cosmetics',
     description:
-   'Hydrating gel mask infused with PDRN and collagen to deeply moisturize, soothe, and revitalize tired skin for a radiant complexion.'
-    },
-    {
+      'Overnight hydrogel collagen mask.',
+  },
+  {
     id: 'cos-35',
-    name:'Medicube PDRN Pink Cica Soothing Toner', 
-      price: 21,
-    images: [
-      '/photos/Medicube/Medicube.png',
-      
-    ],
+    name: 'Medicube PDRN Pink Cica Soothing Toner',
+    price: 21,
+    images: ['/photos/Medicube/Medicube.png'],
     category: 'cosmetics',
     description:
-  'medicube Salmon DNA PDRN Pink CICA Soothing Toner I Pink Glow Toner for Skin Boosting, Soothing and Calming, Uneven Skin Tone, Peptide & Niacinamide, Korean Skin Care (250ml / 8.45 fl. oz.)' 
+      'Soothing PDRN toner.',
   },
-    {
+  {
     id: 'cos-36',
     name: 'Medicube PDRN Pink Niacinamide Whip Cleanser 120g',
-     price: 21,
+    price: 21,
     images: [
       '/photos/Medicube cleanser/Medcleanser1.png',
       '/photos/Medicube cleanser/Medcleanser2.png',
       '/photos/Medicube cleanser/Medcleanser3.png',
-   
+      
     ],
     category: 'cosmetics',
     description:
-   'medicube PDRN Marshmallow Whip Cleanser | Face Wash, Cleansing Foam for Pore Care & Uneven Skin Tone | Gentle Daily Deep Cleansing | Hydrating and Nourishing Facial Cleanser | Korean Skincare' },
-    ];
+      'Gentle daily whip cleanser.',
+  },
+   {
+    id: 'cos-37',
+    name: 'Bakuchiol Plumping Capsule Cream',
+    price: 25,
+    images: ['/photos/Bakuchiol Plumping Capsule Cream/CapsuleCream1.png',
+      '/photos/Bakuchiol Plumping Capsule Cream/CapsuleCream2.png',
+      '/photos/Bakuchiol Plumping Capsule Cream/CapsuleCream3.png',
+      '/photos/Bakuchiol Plumping Capsule Cream/CapsuleCream4.png',
+      '/photos/Bakuchiol Plumping Capsule Cream/CapsuleCream5.png',
+      '/photos/Bakuchiol Plumping Capsule Cream/CapsuleCream6.png',
+    ],
+    category: 'cosmetics',
+    description:
+      'Gentle bakuchiol capsules instantly firm skin and tighten pores.',
+  },
+   {
+    id: 'cos-38',
+    name: 'Triple Collagen Serum',
+    price: 21,
+    images: ['/photos/TripleCollagenSerum/CollagenSerum1.png',
+      '/photos/TripleCollagenSerum/CollagenSerum2.png',
+      '/photos/TripleCollagenSerum/CollagenSerum3.png',
+      '/photos/TripleCollagenSerum/CollagenSerum4.png',
+      '/photos/TripleCollagenSerum/CollagenSerum5.png',
+    ],
+    category: 'cosmetics',
+    description:
+      'Hydrating serum with three types of collagen to boost skin elasticity and moisture retention.',
+  },
+   {
+    id: 'cos-39',
+    name: 'NAD+ Peptide Boosting Cream',
+    price: 25,
+    images: ['/photos/NADPeptideBoostingCream/BoostingCream1.png'
+      ,'/photos/NADPeptideBoostingCream/BoostingCream2.png',
+'/photos/NADPeptideBoostingCream/BoostingCream3.png',
+'/photos/NADPeptideBoostingCream/BoostingCream4.png',
+'/photos/NADPeptideBoostingCream/BoostingCream5.png',
+    ],
+    category: 'cosmetics',
+    description:
+      'Lifts, Firms & Revives Radiant Elasticity for Healthy Aging 50ml',
+  },
+];
 
 // Categories
 export const categories = [
   {
     id: 'cosmetics',
     name: 'Cosmetics',
-    description: 'Lipsticks, foundations, and more',
+    description: 'Face care products',
     images: [
       '/photos/serums.png',
       '/photos/serums-1.png',
@@ -536,27 +569,27 @@ export const categories = [
   {
     id: 'hair-care',
     name: 'Hair Care',
-    description: 'Shampoos, treatments & styling',
+    description: 'Shampoos & scalp care',
     images: ['/photos/haircarecomingsoon.png'],
-    comingSoon: true,
+    comingSoon: false,
   },
   {
     id: 'body-care',
     name: 'Body Care',
-    description: 'Lotions, scrubs & body oils',
+    description: 'Body oils & lip care',
     images: ['/photos/bodycarecomingsoon.png'],
-    comingSoon: true,
+    comingSoon: false,
   },
   {
     id: 'others',
     name: 'Others',
-    description: 'Tools, accessories & more',
+    description: 'Special treatments & patches',
     images: ['/photos/otherscomingsoon.png'],
-    comingSoon: true,
+    comingSoon: false,
   },
 ];
 
-// Helper functions
+// Helpers
 export const getProductById = (id: string) =>
   products.find((p) => p.id === id);
 
@@ -564,3 +597,4 @@ export const getProductsByCategory = (category: string) =>
   products.filter((p) => p.category === category);
 
 export const getFeaturedProducts = () => products.slice(0, 6);
+  
