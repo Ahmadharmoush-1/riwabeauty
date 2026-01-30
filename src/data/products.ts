@@ -548,6 +548,20 @@ export const products: Product[] = [
     description:
       'Lifts, Firms & Revives Radiant Elasticity for Healthy Aging 50ml',
   },
+   {
+    id: 'cos-40',
+    name: 'Vitamin Illuminating Cream',
+    price: 25,
+    images: ['/photos/VitaminilluminatingCream/illuminatingCream1.png'
+      ,'/photos/VitaminilluminatingCream/illuminatingCream2.png',
+'/photos/VitaminilluminatingCream/illuminatingCream3.png',
+'/photos/VitaminilluminatingCream/illuminatingCream4.png',
+'/photos/VitaminilluminatingCream/illuminatingCream5.png',
+    ],
+    category: 'cosmetics',
+    description:
+      'Lifts, Firms & Revives Radiant Elasticity for Healthy Aging 50ml',
+  },
 ];
 
 // Categories
