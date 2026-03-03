@@ -5,36 +5,64 @@ import Layout from '@/components/layout/Layout';
 import ProductCard from '@/components/ProductCard';
 import CategoryCard from '@/components/CategoryCard';
 import { categories, getFeaturedProducts } from '@/data/products';
+import { useEffect } from 'react';
 
 const Index = () => {
   const featuredProducts = getFeaturedProducts();
+  // Scroll to top on mobile when navigating to a category or new route
+  useEffect(() => {
+    if (window.innerWidth < 768) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }, [location]);
 
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative gradient-hero overflow-hidden">
+      <section className="relative bg-[#FFB7CE] overflow-hidden">
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-20 left-10 w-32 h-32 rounded-full bg-primary/30 blur-3xl animate-float" />
-          <div className="absolute bottom-20 right-10 w-48 h-48 rounded-full bg-accent/40 blur-3xl animate-float" style={{ animationDelay: '1s' }} />
+          <div
+            className="absolute bottom-20 right-10 w-48 h-48 rounded-full bg-accent/40 blur-3xl animate-float"
+            style={{ animationDelay: '1s' }}
+          />
         </div>
-        
+
         <div className="container mx-auto px-4 py-16 md:py-24 relative">
           <div className="max-w-2xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-background/80 backdrop-blur-sm rounded-full px-4 py-2 mb-6 animate-fade-in">
               <Sparkles className="h-4 w-4 text-primary" />
-              <span className="text-sm font-medium text-muted-foreground">Premium Beauty Collection</span>
+              <span className="text-sm font-medium text-muted-foreground">
+                Premium Beauty Collection
+              </span>
             </div>
-            
-            <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-              Enhance Your <span className="text-primary">Natural Beauty</span>
-            </h1>
-            
-            <p className="text-lg text-muted-foreground mb-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-              Discover our curated collection of premium cosmetics, hair care, and body care products designed to bring out your inner glow.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-              <Button asChild variant="secondary" size="lg">
+
+           <h1
+  className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-fade-in-up"
+  style={{ animationDelay: '0.1s' }}
+>
+  Soft Skin <span className="text-white">Strong Beauty</span>
+</h1>
+
+
+            <p
+  className="text-lg text-white mb-8 animate-fade-in-up"
+  style={{ animationDelay: '0.2s' }}
+>
+  Discover our curated collection of premium cosmetics, hair care, and body care products
+  designed to bring out your inner glow.
+</p>
+
+
+            <div
+              className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up"
+              style={{ animationDelay: '0.3s' }}
+            >
+               <Button
+      asChild
+      size="lg"
+      className="bg-pink-600 text-white hover:bg-pink-700"
+    >
                 <Link to="/shop">
                   Shop Now <ArrowRight className="h-5 w-5 ml-2" />
                 </Link>
@@ -62,7 +90,8 @@ const Index = () => {
                 className="flex flex-col items-center text-center p-4 animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="h-12 w-12 rounded-full bg-accent flex items-center justify-center mb-3">
+                {/* Baby pink background for icons */}
+                <div className="h-12 w-12 rounded-full bg-[#FFB7CE] flex items-center justify-center mb-3">
                   <item.icon className="h-5 w-5 text-primary" />
                 </div>
                 <h3 className="font-medium text-sm">{item.title}</h3>
@@ -72,82 +101,116 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <div className="w-full my-10 flex justify-center">
+  <img
+    src="/photos/serums-3.png"
+    alt="Promo Banner"
+    className="w-full max-h-[600px] md:max-h-[450px] lg:max-h-[400px] object-contain rounded-2xl shadow-2xl"
+  />
+</div>
 
       {/* Categories */}
       <section className="py-12 md:py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-10">
-            <h2 className="font-heading text-3xl md:text-4xl font-bold mb-3">Shop by Category</h2>
-            <p className="text-muted-foreground">Find exactly what you're looking for</p>
-          </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-            {categories.map((category, index) => (
-              <div
-                key={category.id}
-                className="animate-fade-in-up"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <CategoryCard {...category} />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+  <div className="container mx-auto px-4">
+    <div className="text-center mb-10">
+      <h2 className="font-heading text-3xl md:text-4xl font-bold mb-3">Shop by Category</h2>
+      <p className="text-muted-foreground">Find exactly what you're looking for</p>
+    </div>
 
-      {/* Featured Products */}
-      <section className="py-12 md:py-20 gradient-cream">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between mb-10">
-            <div>
-              <h2 className="font-heading text-3xl md:text-4xl font-bold mb-2">Featured Products</h2>
-              <p className="text-muted-foreground">Our most loved items</p>
-            </div>
-            <Button asChild variant="outline" className="hidden md:inline-flex">
-              <Link to="/shop">
-                View All <ArrowRight className="h-4 w-4 ml-2" />
-              </Link>
-            </Button>
-          </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-            {featuredProducts.map((product, index) => (
-              <div
-                key={product.id}
-                className="animate-fade-in-up"
-                style={{ animationDelay: `${index * 0.05}s` }}
-              >
-                <ProductCard product={product} />
-              </div>
-            ))}
-          </div>
-          
-          <div className="mt-8 text-center md:hidden">
-            <Button asChild variant="outline">
-              <Link to="/shop">
-                View All Products <ArrowRight className="h-4 w-4 ml-2" />
-              </Link>
-            </Button>
-          </div>
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+      {categories.map((category, index) => (
+        <div
+          key={category.id}
+          className="animate-fade-in-up"
+          style={{ animationDelay: `${index * 0.1}s` }}
+        >
+          <CategoryCard {...category} />
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
+
+{/* ===== BIG IMAGE SECTION HERE ===== */}
+<div className="w-full my-10 flex justify-center">
+  <img
+    src="/photos/serrum-1.png"
+    alt="Promo Banner"
+    className="w-full max-h-[600px] md:max-h-[450px] lg:max-h-[400px] object-contain rounded-2xl shadow-2xl"
+  />
+</div>
+
+
+{/* ================================= */}
+
+{/* Featured Products */}
+<section className="py-12 md:py-20 gradient-cream">
+  <div className="container mx-auto px-4">
+    <div className="flex items-center justify-between mb-10">
+      <div>
+        <h2 className="font-heading text-3xl md:text-4xl font-bold mb-2">Featured Products</h2>
+        <p className="text-muted-foreground">Our most loved items</p>
+      </div>
+      <Button asChild variant="outline" className="hidden md:inline-flex">
+        <Link to="/shop">
+          View All <ArrowRight className="h-4 w-4 ml-2" />
+        </Link>
+      </Button>
+    </div>
+
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+      {featuredProducts.map((product, index) => (
+        <div
+          key={product.id}
+          className="animate-fade-in-up"
+          style={{ animationDelay: `${index * 0.05}s` }}
+        >
+          <ProductCard product={product} />
+        </div>
+      ))}
+    </div>
+
+    <div className="mt-8 text-center md:hidden">
+      <Button asChild variant="outline">
+        <Link to="/shop">
+          View All Products <ArrowRight className="h-4 w-4 ml-2" />
+        </Link>
+      </Button>
+    </div>
+  </div>
+</section>
+
+      <div className="w-full my-14 px-4 flex justify-center">
+  <img
+    src="/photos/serrum-2.png"
+    alt="Promo Banner"
+className="w-full max-h-[600px] md:max-h-[450px] lg:max-h-[400px] object-contain rounded-2xl shadow-2xl"  />
+</div>
+
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-primary/10">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">
-            Ready to Glow?
-          </h2>
-          <p className="text-muted-foreground mb-8 max-w-lg mx-auto">
-            Order now and receive your favorite beauty products delivered straight to your door. Easy ordering via WhatsApp!
-          </p>
-          <Button asChild variant="secondary" size="lg">
-            <Link to="/shop">
-              Start Shopping <ArrowRight className="h-5 w-5 ml-2" />
-            </Link>
-          </Button>
-        </div>
-      </section>
+      <section className="py-16 md:py-24 bg-[#FFB7CE]">
+  <div className="container mx-auto px-4 text-center">
+    <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4 text-white">
+      Ready to Glow?
+    </h2>
+
+    <p className="mb-8 max-w-lg mx-auto text-white/90">
+      Order now and receive your favorite beauty products delivered straight to your door. Easy ordering via WhatsApp!
+    </p>
+
+    <Button
+      asChild
+      size="lg"
+      className="bg-pink-600 text-white hover:bg-pink-700"
+    >
+      <Link to="/shop">
+        Start Shopping <ArrowRight className="h-5 w-5 ml-2" />
+      </Link>
+    </Button>
+  </div>
+</section>
+
     </Layout>
   );
 };
