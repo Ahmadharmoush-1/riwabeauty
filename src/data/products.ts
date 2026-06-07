@@ -704,7 +704,7 @@ export const products: Product[] = [
     description: 'A nourishing eye cream that hydrates, firms, and reduces dark circles and fine lines.',
 },
   {
-    id: 'cos-52',
+    id: 'cos-53',
     name: 'Medicube Zero Pore Blackhead Mud Mask',
     price: 20,
     images: ['/photos/Medicube Zero Pore Blackhead Mud Mask/c1.jpeg'
@@ -713,6 +713,43 @@ export const products: Product[] = [
     ],
     category: 'cosmetics',
     description: 'A deep-cleansing mud mask that removes blackheads, excess oil, and tightens pores.',
+},
+
+
+{
+  id: 'cos-55',
+  name: 'vintage tobacco mini',
+  price: 12,
+  images: ['/photos/vintagetobacco.png'
+    ,'/photos/Medicube Zero Pore Blackhead Mud Mask/c2.jpeg',
+'/photos/Medicube Zero Pore Blackhead Mud Mask/c3.jpeg',
+  ],
+  category: 'perfumes',
+  description: 'A deep-cleansing mud mask that removes blackheads, excess oil, and tightens pores.',
+
+},
+{
+  id: 'cos-56',
+  name: 'lv bag',
+  price: 10,
+  images: ['/photos/lvlogo.png'
+    ,'/photos/Medicube Zero Pore Blackhead Mud Mask/c2.jpeg',
+'/photos/Medicube Zero Pore Blackhead Mud Mask/c3.jpeg',
+  ],
+  category: 'bags',
+  description: 'A deep-cleansing mud mask that removes blackheads, excess oil, and tightens pores.',
+
+},{
+  id: 'cos-57',
+  name: 'Zero-cast Moisturizing Finish Sunscreen',
+  price: 20,
+  images: ['/photos/anuazero.png'
+    ,'/photos/z2erocost.png.webp',
+
+  ],
+  category: 'cosmetics',
+  description: 'This everyday sunscreen provides powerful SPF 50 protection while doubling as a lightweight, deeply hydrating moisturizer. It absorbs seamlessly with absolutely zero white cast or greasy residue, prepping the skin for smooth, long-lasting makeup application.',
+
 },
 ];
 
@@ -748,9 +785,29 @@ export const categories = [
   },
   {
     id: 'others',
-    name: 'Others',
-    description: 'Special treatments & patches',
+    name: 'Makeup',
+    description: 'Makeup products',
     images: ['/photos/otherscomingsoon.png'],
+    comingSoon: false,
+  },{
+    id: 'perfumes',
+    name: 'Perfumes',
+    description: 'Perfumes products',
+    images: ['/photos/perumesicon.png'],
+    comingSoon: false,
+  },
+  {
+    id: 'bags',
+    name: 'Bags',
+    description: 'Bags products',
+    images: ['/photos/lvlogo.png'],
+    comingSoon: false,
+  },
+  {
+    id: 'Eyekiss-lenses',
+    name: 'Eyekiss Lenses',
+    description: 'Eyekiss Lenses products',
+    images: ['/photos/eyekisslogo.png'],
     comingSoon: false,
   },
 ];
