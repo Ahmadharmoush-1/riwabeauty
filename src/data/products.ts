@@ -750,7 +750,237 @@ export const products: Product[] = [
   category: 'cosmetics',
   description: 'This everyday sunscreen provides powerful SPF 50 protection while doubling as a lightweight, deeply hydrating moisturizer. It absorbs seamlessly with absolutely zero white cast or greasy residue, prepping the skin for smooth, long-lasting makeup application.',
 
+},{
+  id: 'cos-58',
+  name: 'Vitamin C Booster Shot, Pure Vitamin C + Glutathione for Bright, Healthy Skin Glow, 1.01 fl oz',
+  price: 20,
+  images: ['/photos/arenciagreen.png'
+    ,'/photos/arenciagreen2.png',
+
+  ],
+  category: 'cosmetics',
+  description: 'A powerful vitamin C booster shot that brightens, evens skin tone, and improves skin glow.',
+
+},{
+  id: 'cos-59',
+  name: 'essence I Love Extreme volume Mascara',
+  price: 5,
+  images: ['/photos/extreme/ex1.png'
+    ,'/photos/extreme/ex2.png',
+
+  ],
+  category: 'others',
+  description: 'A volumizing mascara that lengthens, thickens, and defines lashes.',
+
+},{
+  id: 'cos-60',
+  name: 'essence I Love Extreme crazy volume Mascara',
+  price: 5,
+  images: ['/photos/extreme/ex3.png'
+    ,'/photos/extreme/ex4.png',
+
+  ],
+  category: 'others',
+  description: 'A crazy volumizing mascara that lengthens, thickens, and defines lashes.',
+
 },
+{
+  id: 'cos-61',
+  name: 'Ruby Rose "Feels" Matificante Translucent Loose Powder',
+  price: 5,
+  images: ['/photos/rubyrose/feel1.png'
+    ,'/photos/rubyrose/feel2.png',
+
+  ],
+  category: 'others',
+  description: 'A translucent loose powder that sets makeup and mattifies skin.',
+
+},
+{
+  id: 'cos-62',
+  name: 'NYX Professional Makeup Buttermelt Blush',
+  price: 13,
+  images: [
+    '/photos/melt/melt1.png',
+    '/photos/melt/melt2.png',
+    '/photos/melt/melt3.png',
+  ],
+  category: 'others',
+  description: 'A creamy blush that blends seamlessly into the skin for a natural, flushed look.',
+
+},
+{
+  id: 'cos-63',
+  name: 'Maybelline New York Lifter Gloss in shade 005 Peta',
+  price: 10,
+  images: ['/photos/maybelline/mayb1.png'],
+  category: 'others',
+  description: 'A lightweight, long-wearing lipgloss that adds a subtle sheen and hydration to the lips.',
+
+},
+{
+  id: 'cos-64',
+  name: 'Maybelline Lifter Gloss in shade 002 Ice',
+  price: 10,
+  images: [
+    '/photos/maybelline/mayb2.png',
+    '/photos/maybelline/mayb3.png',
+  ],
+  category: 'others',
+  description: 'A lightweight, long-wearing lipgloss that adds a subtle sheen and hydration to the lips.',
+
+},
+{
+  id: 'cos-65',
+  name: 'Maybelline Super Stay Vinyl Ink Longwear Liquid Lipstick in the shade 20 Coy',
+  price: 11,
+  images: ['/photos/superstay/superstay.png', 
+    '/photos/superstay/superstay2.png'
+,
+  ],
+  category: 'others',
+  description: 'A long-wearing liquid lipstick with a glossy vinyl finish and rich color in shade 20 Coy that stays put for hours without fading.',
+
+},
+{
+  id: 'cos-66',
+  name: 'Pixi Beauty On-the-Glow Blush',
+  price: 27,
+  images: ['/photos/pixi/pix1.png', 
+    '/photos/pixi/pix2.png',
+    '/photos/pixi/pix3.png',
+    '/photos/pixi/pix4.png',
+    '/photos/pixi/pix5.png',
+    '/photos/pixi/pix6.png',
+    '/photos/pixi/pix7.png',
+
+,
+  ],
+  category: 'others',
+  description: 'A creamy stick blush that blends effortlessly for a natural, dewy flush you can apply on the go.',
+
+},
+{
+  id: 'cos-67',
+  name: 'uby Rose Sunkiss Cream Bronzer Stick',
+  price: 5,
+  images: ['/photos/creambronze/bronze1.png', 
+    '/photos/creambronze/bronze2.png'
+,
+  ],
+  category: 'others',
+  description: 'A creamy bronzer stick that warms the complexion with a sun-kissed glow and blends easily for natural contour and definition.',
+
+},
+{
+  id: 'cos-68',
+  name: 'Quick Fix Makeup Professional',
+  price: 8,
+  images: ['/photos/makeupfix.png', 
+  
+,
+  ],
+  category: 'others',
+  description: 'A quick-dry makeup fixative that refreshes and sets your face for a polished, long-lasting finish.',
+
+},
+{
+  id: 'cos-69',
+  name: 'Ruby Rose Shine Stone highlighter stick in the shade Luminous Quartz',
+  price: 5,
+  images: ['/photos/highl/highl.png', 
+    '/photos/highl/highl2.png', 
+  
+,
+  ],
+  category: 'others',
+  description: 'A creamy highlighter stick in shade Luminous Quartz that adds a soft, radiant glow to cheekbones, brow bone, and cupid\'s bow.',
+
+},
+
+{
+  id: 'cos-70',
+  name: 'RSHEGLAM Insta-Ready Face & Under Eye Setting Powder Duo',
+  price: 9,
+  images: ['/photos/sheglam/she1.png', 
+    '/photos/sheglam/she2.png', 
+  
+,
+  ],
+  category: 'others',
+  description: 'A dual setting powder duo with separate formulas for the face and under-eye area to blur, set, and brighten for a photo-ready finish.',
+
+},
+{
+  id: 'cos-71',
+  name: 'Ruby Rose Feels Prep-Primer in a nude tube',
+  price: 4,
+  images: ['/photos/nudetube/nude2.png', 
+    '/photos/nudetube/nude1.png', 
+  
+,
+  ],
+  category: 'others',
+  description: 'A lightweight face primer that smooths skin, minimizes pores, and helps makeup glide on and last longer.',
+
+},
+{
+  id: 'cos-72',
+  name: 'Ruby Rose Comfort Matte Liquid Lipstick',
+  price: 4,
+  images: ['/photos/lipstick/lip1.png', 
+    '/photos/lipstick/lip2.png', 
+    '/photos/lipstick/lip2.png', 
+  
+,
+  ],
+  category: 'others',
+  description: 'A comfortable matte liquid lipstick that delivers bold, transfer-resistant color with a soft, non-drying finish.',
+
+},
+{
+  id: 'cos-73',
+  name: 'Samoa Cosmetics Skin Envy Matte Poreless Skin 12hr Wear Foundation',
+  price: 14,
+  images: ['/photos/skinenvy/skin3.png', 
+    '/photos/skinenvy/skin2.png', 
+    '/photos/skinenvy/skin1.png', 
+  
+,
+  ],
+  category: 'others',
+  description: 'A matte, poreless foundation with up to 12 hours of wear that evens skin tone and delivers a smooth, flawless finish.',
+
+},
+{
+  id: 'cos-74',
+  name: 'Yves Morel lip pencil in shade No. 08 (Dusty Rose)',
+  price: 3,
+  images: ['/photos/yves.png', 
+  
+,
+  ],
+  category: 'others',
+  description: 'A creamy lip pencil in shade No. 08 Dusty Rose that defines, shapes, and fills lips with a soft, muted rose tone.',
+
+},
+{
+  id: 'cos-75',
+  name: 'Ooh La Lash! Mascara promises extreme thickness and a curled look for dramatic lashes',
+  price: 11,
+  images: ['/photos/mascapromi.png', 
+  
+,
+  ],
+  category: 'others',
+  description: 'A volumizing mascara that builds extreme thickness and a lifted, curled look for bold, dramatic lashes.',
+
+},
+
+
+
+
+
 ];
 
 // Categories
