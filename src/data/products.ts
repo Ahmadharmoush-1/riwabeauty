@@ -1059,7 +1059,7 @@ export const products: Product[] = [
 
 },
 {
-  id: 'cos-81',
+  id: 'cos-82',
   name: 'Essence Blush Crush! powder blush',
   price: 6,
   images: ['/photos/blush1.png', 
@@ -1071,7 +1071,7 @@ export const products: Product[] = [
 
 },
 {
-  id: 'cos-82',
+  id: 'cos-83',
   name: 'essence Baby Got Blush Liquid Blush',
   price: 6,
   images: ['/photos/blushliq/liq1.png', 
@@ -1086,7 +1086,7 @@ export const products: Product[] = [
 
 },
 {
-  id: 'cos-83',
+  id: 'cos-84',
   name: 'L\'Oréal Paris Sunrise in Paradise La Terra Sun Powder',
   price: 18,
   images: ['/photos/sunpowder/sunpow1.png', 
