@@ -788,8 +788,8 @@ export const products: Product[] = [
   id: 'cos-61',
   name: 'Ruby Rose "Feels" Matificante Translucent Loose Powder',
   price: 5,
-  images: ['/photos/rubyrose/feel1.png'
-    ,'/photos/rubyrose/feel2.png',
+  images: ['/photos/rubyrrrr/ruby22.png'
+    ,'/photos/rubyrrrr/ruby23.png',
 
   ],
   category: 'others',
@@ -976,9 +976,129 @@ export const products: Product[] = [
   description: 'A volumizing mascara that builds extreme thickness and a lifted, curled look for bold, dramatic lashes.',
 
 },
+{
+  id: 'cos-76',
+  name: 'Essence Extreme Shine Volume Lipgloss',
+  price: 7,
+  images: ['/photos/shinelip/shine1.png', 
+    '/photos/shinelip/shine2.png', 
 
+  
+,
+  ],
+  category: 'others',
+  description: 'A high-shine lipgloss that adds volume and a glossy, plumped look while keeping lips hydrated and comfortable.',
 
+},
+{
+  id: 'cos-77',
+  name: 'Maybelline Super Stay Teddy Tint in the shade "10 Current Mood',
+  price: 11,
+  images: ['/photos/teddytint.png', 
 
+  
+,
+  ],
+  category: 'others',
+  description: 'A long-wearing teddy tint lip color in shade 10 Current Mood that delivers a soft, blurred matte finish with up to 12 hours of transfer-resistant wear.',
+
+},
+{
+  id: 'cos-78',
+  name: 'SHEGLAM Snatch  Blush Stick, a cream blush',
+  price: 7,
+  images: ['/photos/blushstick.png', 
+
+  
+,
+  ],
+  category: 'others',
+  description: 'A creamy blush stick that glides on smoothly and blends easily for a natural, buildable flush of color on cheeks.',
+
+},
+{
+  id: 'cos-79',
+  name: 'SHEGLAM Color Bloom Liquid Blush',
+  price: 8,
+  images: ['/photos/colorbloom/clr1.png', 
+    '/photos/colorbloom/clr2.png',
+    '/photos/colorbloom/clr3.png',
+
+  
+,
+  ],
+  category: 'others',
+  description: 'A lightweight liquid blush that blends seamlessly into the skin for a fresh, dewy pop of color with a natural finish.',
+
+},
+{
+  id: 'cos-80',
+  name: 'SHEGLAM Color Bloom Liquid Blush',
+  price: 6,
+  images: ['/photos/skinlip.png', 
+ 
+  
+,
+  ],
+  category: 'others',
+  description: 'A buildable liquid blush that melts into the skin for a soft, radiant flush with a lightweight, second-skin feel.',
+
+},
+
+{
+  id: 'cos-81',
+  name: 'Melu Aqua Tint by Ruby Rose',
+  price: 3,
+  images: ['/photos/rubyrose/ruby1.png', 
+    '/photos/rubyrose/ruby2.png',
+    '/photos/rubyrose/ruby3.png',
+
+  ],
+  category: 'others',
+  description: 'A lightweight aqua lip tint that delivers a sheer wash of color with a fresh, hydrated feel and a natural stained-lip look.',
+
+},
+{
+  id: 'cos-81',
+  name: 'Essence Blush Crush! powder blush',
+  price: 6,
+  images: ['/photos/blush1.png', 
+    '/photos/blush2.png',
+
+  ],
+  category: 'others',
+  description: 'A silky powder blush that adds a soft, buildable flush of color with a smooth, blendable finish for everyday wear.',
+
+},
+{
+  id: 'cos-82',
+  name: 'essence Baby Got Blush Liquid Blush',
+  price: 6,
+  images: ['/photos/blushliq/liq1.png', 
+    '/photos/blushliq/liq2.png',
+    '/photos/blushliq/liq3.png',
+    '/photos/blushliq/liq4.png',
+    '/photos/blushliq/liq5.png',
+
+  ],
+  category: 'others',
+  description: 'A liquid blush with a lightweight formula that blends effortlessly for a youthful, dewy glow on the cheeks.',
+
+},
+{
+  id: 'cos-83',
+  name: 'L\'Oréal Paris Sunrise in Paradise La Terra Sun Powder',
+  price: 18,
+  images: ['/photos/sunpowder/sunpow1.png', 
+    '/photos/blushliq/sunpow2.png',
+    '/photos/blushliq/sunpow3.png',
+    '/photos/blushliq/sunpow4.png',
+
+  ],
+  category: 'others',
+  description: 'A bronzing sun powder that warms the complexion with a natural, sun-kissed glow for face and body.',
+
+},
 
 
 ];
