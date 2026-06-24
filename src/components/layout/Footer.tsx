@@ -15,7 +15,7 @@ const Footer = () => {
             </Link>
 
             <p className="text-sm mb-4 text-white/90">
-              Enhance your natural beauty with our premium collection of cosmetics and skincare products.
+              Enhance your natural beauty with our premium collection of cosmetics and skincare products..
             </p>
 
             <div className="flex gap-3">
