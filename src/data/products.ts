@@ -743,9 +743,13 @@ export const products: Product[] = [
   id: 'cos-57',
   name: 'Zero-cast Moisturizing Finish Sunscreen',
   price: 20,
-  images: ['/photos/anuazero.png'
-    ,'/photos/z2erocost.png.webp',
-
+  images: [
+    '/photos/moissun/m1.png',
+    '/photos/moissun/m2.png',
+    '/photos/moissun/m3.png',
+    '/photos/moissun/m4.png',
+    '/photos/moissun/m5.png',
+    '/photos/moissun/m6.png',
   ],
   category: 'cosmetics',
   description: 'This everyday sunscreen provides powerful SPF 50 protection while doubling as a lightweight, deeply hydrating moisturizer. It absorbs seamlessly with absolutely zero white cast or greasy residue, prepping the skin for smooth, long-lasting makeup application.',
@@ -1278,21 +1282,6 @@ export const products: Product[] = [
   ],
   category: 'others',
   description: 'A sun cream that protects the skin from the sun and reduces dark spots and acne scars with a deep moisturizing effect.',
-
-},
-{
-  id: 'cos-97',
-  name: 'Zero-cast Moisturizing Finish Sunscreen',
-  price: 20,
-  images: ['/photos/moissun/m1.png', 
-    '/photos/aquamarr/a2.png',
-    '/photos/moissun/m3.png',
-    '/photos/moissun/m4.png',
-    '/photos/moissun/m5.png',
-    '/photos/moissun/m6.png',
-  ],
-  category: 'others',
-  description: 'A sunscreen that protects the skin from the sun and reduces dark spots and acne scars with a deep moisturizing effect.',
 
 },
 {
