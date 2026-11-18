@@ -1661,10 +1661,7 @@ export const products: Product[] = [
   id: 'cos-125',
   name: 'SPANISH TOBACCO 100 ML',
   price: 38.99,
-  images: [
-    '/photos/IbraqSpanishTobacco.webp',
-    '/photos/IbraqSpanishTobacco-1.webp',
-  ],
+  images: ['/photos/IbraqSpanishTobacco.webp'],
   category: 'perfumes',
   description:
     'Spanish Tobacco - 100ml - Unisex. From the moment the Spanish Tobacco perfume soars high, its distinctive fragrance spreads with the enveloped notes of saffron and tonka, blending delicately with amber and tobacco, and finally embraced by the delicateness of jasmine flowers and woods to create a wonderful aromatic effect. Top Notes: Aquatic Notes, Saffron, Tonka Bean. Middle Notes: Cocoa, Amber, Spanish Tobacco.',
