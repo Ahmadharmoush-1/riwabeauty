@@ -1636,6 +1636,15 @@ export const products: Product[] = [
   description:
     'A collection of 9 × 20ml tobacco fragrances: Mexican, Jamaican, Cuban, Dominican, Greek, Spanish, Arabian, French, and Brazilian Tobacco. 9 × 20 ml of excellence in your hands!',
 },
+{
+  id: 'cos-123',
+  name: 'MUSK COLLECTION 20ML',
+  price: 84.99,
+  images: ['/photos/IbraqMuskCollection.webp'],
+  category: 'perfumes',
+  description:
+    'Musk Box (20 mL): Special Musk, Musk Powder, Musk Pomegranate, Musk Blueberry, Musk Sun, Musk Dawn, Musk Qamar, Musk Fajr, Musk Raspberry, Musk Candy, Musk Cardamom, and Musk Sugar.',
+},
 ];
 
 // Categories
