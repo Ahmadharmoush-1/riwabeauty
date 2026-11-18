@@ -1627,6 +1627,15 @@ export const products: Product[] = [
   description:
     'A complete set of 10 premium miniature fragrances in elegant 20ml bottles, ideal for travel and everyday use. Diverse scent profiles (woody, floral, fresh, and oriental), perfect for layering or discovering your signature scent.',
 },
+{
+  id: 'cos-122',
+  name: 'TOBACCO COLLECTION',
+  price: 72.99,
+  images: ['/photos/IbraqTobaccoCollection.webp'],
+  category: 'perfumes',
+  description:
+    'A collection of 9 × 20ml tobacco fragrances: Mexican, Jamaican, Cuban, Dominican, Greek, Spanish, Arabian, French, and Brazilian Tobacco. 9 × 20 ml of excellence in your hands!',
+},
 ];
 
 // Categories
