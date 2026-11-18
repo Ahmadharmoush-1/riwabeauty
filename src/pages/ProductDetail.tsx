@@ -147,11 +147,9 @@ const ProductDetail = () => {
             </div>
 
             <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">You May Also Like</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-              {relatedProducts.map((product, index) => (
-                <div key={product.id} className="animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
-                  <ProductCard product={product} />
-                </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 animate-fade-in">
+              {relatedProducts.map((product) => (
+                <ProductCard key={product.id} product={product} />
               ))}
             </div>
           </section>

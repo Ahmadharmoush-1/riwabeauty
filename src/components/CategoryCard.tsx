@@ -1,13 +1,12 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, Clock } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { useEffect, useState } from 'react';
 
 interface CategoryCardProps {
   id: string;
   name: string;
   description: string;
-  images: string[]; // ✅ now an array
+  images: string[];
   comingSoon?: boolean;
 }
 
@@ -18,18 +17,7 @@ const CategoryCard = ({
   images,
   comingSoon = false,
 }: CategoryCardProps) => {
-  const [activeImage, setActiveImage] = useState(images[0] || '/photos/placeholder.png');
-
-  // Optional: auto-rotate images every 4 seconds
-  useEffect(() => {
-    if (images.length <= 1) return;
-
-    const interval = setInterval(() => {
-      setActiveImage(prev => images[(images.indexOf(prev) + 1) % images.length]);
-    }, 4000);
-
-    return () => clearInterval(interval);
-  }, [images]);
+  const image = images[0] || '/photos/placeholder.png';
 
   const content = (
     <div
@@ -39,9 +27,10 @@ const CategoryCard = ({
       )}
     >
       <img
-        src={activeImage}
+        src={image}
         alt={name}
         loading="lazy"
+        decoding="async"
         className={cn(
           "absolute inset-0 w-full h-full object-cover transition-transform duration-700",
           comingSoon ? "grayscale opacity-60" : "group-hover:scale-110"

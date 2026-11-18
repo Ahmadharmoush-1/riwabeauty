@@ -1615,6 +1615,18 @@ export const products: Product[] = [
   description:
     'A refined unisex EDP with orange blossom, tuberose, jasmine, and musk for a timeless floral fragrance with warm, elegant depth.',
 },
+{
+  id: 'cos-121',
+  name: 'Ibraq Mini Diamond Box',
+  price: 92.99,
+  images: [
+    '/photos/IbraqMiniDiamondBox.webp',
+    '/photos/IbraqMiniDiamondBox-1.webp',
+  ],
+  category: 'perfumes',
+  description:
+    'A complete set of 10 premium miniature fragrances in elegant 20ml bottles, ideal for travel and everyday use. Diverse scent profiles (woody, floral, fresh, and oriental), perfect for layering or discovering your signature scent.',
+},
 ];
 
 // Categories
@@ -1680,8 +1692,16 @@ export const categories = [
 export const getProductById = (id: string) =>
   products.find((p) => p.id === id);
 
-export const getProductsByCategory = (category: string) =>
-  products.filter((p) => p.category === category);
+const productsByCategory = new Map<string, Product[]>();
+export const getProductsByCategory = (category: string) => {
+  if (!productsByCategory.has(category)) {
+    productsByCategory.set(
+      category,
+      products.filter((p) => p.category === category)
+    );
+  }
+  return productsByCategory.get(category)!;
+};
 
 export const getFeaturedProducts = () => products.slice(0, 6);
   

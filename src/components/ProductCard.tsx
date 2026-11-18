@@ -1,26 +1,29 @@
+import { memo, useCallback, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Plus, Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Product, useCart } from '@/context/CartContext';
-import { useState } from 'react';
 import { cn } from '@/lib/utils';
 
 interface ProductCardProps {
   product: Product;
 }
 
-const ProductCard = ({ product }: ProductCardProps) => {
+const ProductCard = memo(({ product }: ProductCardProps) => {
   const { addToCart, items } = useCart();
   const [isAdding, setIsAdding] = useState(false);
-  const isInCart = items.some(item => item.id === product.id);
+  const isInCart = useMemo(
+    () => items.some(item => item.id === product.id),
+    [items, product.id]
+  );
 
-  const handleAddToCart = (e: React.MouseEvent) => {
+  const handleAddToCart = useCallback((e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
     setIsAdding(true);
     addToCart(product);
     setTimeout(() => setIsAdding(false), 500);
-  };
+  }, [addToCart, product]);
 
   return (
     <Link
@@ -32,6 +35,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
           src={product.images[0]}
           alt={product.name}
           loading="lazy"
+          decoding="async"
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
         <Button
@@ -60,6 +64,8 @@ const ProductCard = ({ product }: ProductCardProps) => {
       </div>
     </Link>
   );
-};
+});
+
+ProductCard.displayName = 'ProductCard';
 
 export default ProductCard;

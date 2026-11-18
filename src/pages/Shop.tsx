@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
+import { useMemo } from 'react';
 import Layout from '@/components/layout/Layout';
 import ProductCard from '@/components/ProductCard';
 import CategoryCard from '@/components/CategoryCard';
@@ -9,13 +10,15 @@ import { cn } from "@/lib/utils";
 const Shop = () => {
   const { category } = useParams<{ category?: string }>();
   
-  const filteredProducts = category
-    ? getProductsByCategory(category)
-    : products;
+  const filteredProducts = useMemo(
+    () => (category ? getProductsByCategory(category) : products),
+    [category]
+  );
 
-  const currentCategory = category
-    ? categories.find(c => c.id === category)
-    : null;
+  const currentCategory = useMemo(
+    () => (category ? categories.find(c => c.id === category) : null),
+    [category]
+  );
 
   return (
     <Layout>
@@ -113,15 +116,12 @@ const Shop = () => {
         )}
 
         {/* Products Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-          {filteredProducts.map((product, index) => (
-            <div
-              key={product.id}
-              className="animate-fade-in-up"
-              style={{ animationDelay: `${index * 0.05}s` }}
-            >
-              <ProductCard product={product} />
-            </div>
+        <div
+          key={category ?? 'all'}
+          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 animate-fade-in"
+        >
+          {filteredProducts.map((product) => (
+            <ProductCard key={product.id} product={product} />
           ))}
         </div>
 
